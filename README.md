@@ -6,9 +6,7 @@ Welcome to the repository for Block Themes built by the WordPress community.
 
 WordPress is in a new era of theming and site creation overall. This repo exists to encourage folks both experienced and new to WordPress to contribute more themes — demonstrating what can be done and how. This way, we learn from and inspire each other faster.
 
-## Contributing
-
-You can contribute with code, designs or discussion.
+The aim of this repo is to submit the block themes to the WordPress.org themes directory under the WordPress user, ensuring the quality of the code and design of said themes.
 
 ### Getting Started
 
@@ -37,6 +35,12 @@ If it's your first time building a Block Theme, we suggest checking the Resource
 - License: [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) or later
 
 ### How to contribute a new theme
+
+You can contribute with code, designs or discussion. 
+
+If you want to submit a theme design, you can include a figma link or a zip file of your theme created using the Create Block Theme plugin. You can use the [Twenty Twenty-Three Figma Mockups](https://www.figma.com/community/file/1139275543113752375) as a reference.
+
+We will kickstart this innitiative building child themes of Twenty Twenty-Three. The themes can include as many or as few templates as you prefer, and the rest will be inherited by the parent theme.
 
 ## Resources
 
