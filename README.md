@@ -6,7 +6,7 @@ Welcome to the repository for Block Themes built by the WordPress community.
 
 WordPress is in a new era of theming and site creation. This repo encourages both experienced and new  WordPress contributors to create more themes — demonstrating what can be done and how. This way we learn from and inspire each other.
 
-The aim of this repo is to submit the block themes to the WordPress.org themes directory under the WordPress user, ensuring the quality of the code and design of said themes. Hopefully this initiative will help more users without prior theming knowledge or who don't code to create high quality themes by themeselves using the new tools available to us.
+The aim of this repo is to submit the block themes to the WordPress.org themes directory under the WordPress user, ensuring the quality of the code and design of said themes. This initiative will help more users without prior theming knowledge or who don't code to create high quality themes by themselves using the new site building tools.
 
 ### Getting Started
 
