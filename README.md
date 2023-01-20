@@ -38,7 +38,7 @@ If it's your first time building a Block Theme, we suggest checking the Resource
 
 You can contribute with code, designs or discussion. 
 
-If you want to submit a theme design, you can include a figma link or a zip file of your theme created using the Create Block Theme plugin. You can use the [Twenty Twenty-Three Figma Mockups](https://www.figma.com/community/file/1139275543113752375) as a reference.
+To submit a theme design, include a Figma link or a zip file of your theme created using the Create Block Theme plugin. You can use the [Twenty Twenty-Three Figma Mockups](https://www.figma.com/community/file/1139275543113752375) as a reference.
 
 We will kickstart this innitiative building child themes of Twenty Twenty-Three. The themes can include as many or as few templates as you prefer, and the rest will be inherited by the parent theme.
 
