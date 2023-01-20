@@ -40,7 +40,7 @@ You can contribute with code, designs or discussion.
 
 To submit a theme design, include a Figma link or a zip file of your theme created using the Create Block Theme plugin. You can use the [Twenty Twenty-Three Figma Mockups](https://www.figma.com/community/file/1139275543113752375) as a reference.
 
-We will kickstart this innitiative building child themes of Twenty Twenty-Three. The themes can include as many or as few templates as you prefer, and the rest will be inherited by the parent theme.
+We will kickstart this initiative by building child themes of Twenty Twenty-Three. The themes can include as many or as few templates as you prefer, and the rest will be inherited from the parent theme.
 
 ## Resources
 
