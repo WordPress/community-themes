@@ -106,18 +106,6 @@
 	},
 	"styles": {
 		"blocks": {
-			"core/search": {
-				"typography": {
-					"fontSize": "10em"
-				},
-				"elements": {
-					"button": {
-						"typography": {
-							"fontSize": "10em"
-						}
-					}
-				}
-			},
 			"core/navigation-link": {
 				"elements": {
 					"link": {
