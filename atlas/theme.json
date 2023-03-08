@@ -178,6 +178,7 @@
 			},
 			"core/pullquote": {
 				"color": {
+					"text": "var(--wp--preset--color--contrast)",
 					"gradient": "var(--wp--preset--gradient--base)"
 				},
 				"typography": {
