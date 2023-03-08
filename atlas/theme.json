@@ -159,21 +159,7 @@
 					}
 				}
 			},
-			"core/post-navigation-link": {
-				"elements": {
-					"link": {
-						":hover": {
-							"typography": {
-								"textDecoration": "none"
-							}
-						},
-						":focus": {
-							"typography": {
-								"textDecoration": "none"
-							}
-						}
-					}
-				},
+			"core/navigation": {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--dm-sans)",
 					"fontSize": "var(--wp--preset--font-size--medium)"
