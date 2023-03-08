@@ -195,7 +195,7 @@
 			},
 			"core/separator": {
 				"color": {
-					"background": "var(--wp--preset--color--contrast)"
+					"background": "inherit"
 				}
 			},
 			"core/site-title": {
