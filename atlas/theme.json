@@ -102,6 +102,10 @@
 					"slug": "xx-large"
 				}
 			]
+		},
+		"layout": {
+			"contentSize": "640px",
+			"wideSize": "880px"
 		}
 	},
 	"styles": {
