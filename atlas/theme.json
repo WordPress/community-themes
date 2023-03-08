@@ -213,18 +213,6 @@
 				}
 			},
 			"core/site-title": {
-				"elements": {
-					"link": {
-						"typography": {
-							"textDecoration": "none"
-						},
-						":hover": {
-							"typography": {
-								"textDecoration": "underline"
-							}
-						}
-					}
-				},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--dm-sans)",
 					"fontSize": "var(--wp--preset--font-size--medium)",
