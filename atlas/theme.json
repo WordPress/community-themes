@@ -225,6 +225,9 @@
 		},
 		"elements": {
 			"button": {
+				"typography": {
+					"fontWeight": "bold"
+				},
 				"color": {
 					"background": "var(--wp--preset--color--primary)",
 					"text": "var(--wp--preset--color--base)"
