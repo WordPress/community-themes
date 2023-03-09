@@ -42,6 +42,14 @@ To submit a theme design, include a Figma link or a zip file of your theme creat
 
 We will kickstart this initiative by building child themes of Twenty Twenty-Three. The themes can include as many or as few templates as you prefer, and the rest will be inherited from the parent theme.
 
+### Guidelines for new themes
+
+When in doubt, check the [guidelines for the WordPress.org Themes repository](https://make.wordpress.org/themes/handbook/review/required/)!
+
+As a reminder, some of the things to keep in mind when building a theme usually are:
+
+- Paying attention that all strings are translatable. The best way to do this right now is to use block patterns for the areas of your theme that have strings on them. If you don't want that pattern to show in the inserter, you can do this like [TT3 does it for its 404 page](https://github.com/WordPress/twentytwentythree/blob/trunk/patterns/hidden-404.php). 
+
 ## Resources
 
 - [Twenty Twenty-Three Figma Mockups](https://www.figma.com/community/file/1139275543113752375)
