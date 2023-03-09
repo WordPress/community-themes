@@ -1,5 +1,5 @@
 === Atlas ===
-Contributors: ajlende
+Contributors: wordpressdotorg, ajlende
 Requires at least: 6.1
 Tested up to: 6.2
 Requires PHP: 5.6
@@ -8,7 +8,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Atlas theme by ajlende.
+Atlas is a WordPress theme for anyone who wants to take their website to new heights, with a design that’s bold, beautiful, and centered on the cosmos.
 
 == Changelog ==
 
