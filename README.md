@@ -48,7 +48,8 @@ When in doubt, check the [guidelines for the WordPress.org Themes repository](ht
 
 As a reminder, some of the things to keep in mind when building a theme usually are:
 
-- Paying attention that all strings are translatable. The best way to do this right now is to use block patterns for the areas of your theme that have strings on them. If you don't want that pattern to show in the inserter, you can do this like [TT3 does it for its 404 page](https://github.com/WordPress/twentytwentythree/blob/trunk/patterns/hidden-404.php). 
+- Paying attention that all strings are translatable. The best way to do this right now is to use block patterns for the areas of your theme that have strings on them. If you don't want that pattern to show in the inserter, you can do this like [TT3 does it for its 404 page](https://github.com/WordPress/twentytwentythree/blob/trunk/patterns/hidden-404.php).
+- When deciding a name for your theme, consider [these guidelines](https://make.wordpress.org/themes/2013/02/26/clarifying-guidelines-for-theme-name/). If you want to make sure that the name you chose is free, have a look at the [list of themes on svn](https://themes.svn.wordpress.org/) for the repo.
 
 ## Resources
 
