@@ -1,5 +1,5 @@
 === Atlas ===
-Contributors: wordpressdotorg, ajlende
+Contributors: wordpressdotorg, ajlende, onemaggie
 Requires at least: 6.1
 Tested up to: 6.2
 Requires PHP: 5.6
