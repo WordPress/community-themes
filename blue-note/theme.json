@@ -1,0 +1,224 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.2/theme.json",
+	"customTemplates": [
+		{
+			"name": "single-no-sidebar",
+			"postTypes": [
+				"page",
+				"post"
+			],
+			"title": "Single, no sidebar"
+		}
+	],
+	"settings": {
+		"appearanceTools": true,
+		"color":{
+			"palette": [
+				{
+					"slug": "base",
+					"name": "Base",
+					"color": "#F5F3EA"
+				},
+				{
+					"slug": "contrast",
+					"name": "Contrast",
+					"color": "#000000"
+				},
+				{
+					"slug": "primary",
+					"name": "Primary",
+					"color": "#000000"
+				},
+				{
+					"slug": "secondary",
+					"name": "Secondary",
+					"color": "#6E6E6E"
+				},
+				{
+					"slug": "tertiary",
+					"name": "Tertiary",
+					"color": "#ADADAD"
+				}
+			],
+			"duotone": [
+				{
+					"slug": "duotone-1",
+					"name": "Duotone 1",
+					"colors": [
+						"#000000",
+						"#C8266A"
+					]
+				},
+				{
+					"slug": "duotone-2",
+					"name": "Duotone 2",
+					"colors": [
+						"#000000",
+						"#3371BD"
+					]
+				},
+				{
+					"slug": "duotone-3",
+					"name": "Duotone 3",
+					"colors": [
+						"#000000",
+						"#92A317"
+					]
+				},
+				{
+					"slug": "duotone-4",
+					"name": "Duotone 4",
+					"colors": [
+						"#000000",
+						"#FCE9A5"
+					]
+				},
+				{
+					"slug": "duotone-5",
+					"name": "Duotone 5",
+					"colors": [
+						"#000000",
+						"#EA5200"
+					]
+				},
+				{
+					"slug": "duotone-6",
+					"name": "Duotone 6",
+					"colors": [
+						"#000000",
+						"#6C4A8F"
+					]
+				},
+				{
+					"slug": "duotone-7",
+					"name": "Duotone 7",
+					"colors": [
+						"#000000",
+						"#FFFFFF"
+					]
+				}
+			]
+		},
+		"layout": {
+			"contentSize": "655px",
+			"wideSize": "874px"
+		},
+		"spacing": {
+			"units": [
+				"%",
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw"
+			]
+		},
+		"typography": {
+			"fluid": true,
+			"fontFamilies": [
+				{
+					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+					"name": "System Font",
+					"slug": "system-font"
+				},
+				{
+					"fontFamily": "Old Standard TT",
+					"slug": "old-standard-tt",
+					"fontFace": [
+						{
+							"fontFamily": "Old Standard TT",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/old-standard-tt-v18-cyrillic_cyrillic-ext_latin_latin-ext_vietnamese-regular.woff2"
+							]
+						},
+						{
+							"fontFamily": "Old Standard TT",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/old-standard-tt-v18-cyrillic_cyrillic-ext_latin_latin-ext_vietnamese-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Old Standard TT",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/old-standard-tt-v18-cyrillic_cyrillic-ext_latin_latin-ext_vietnamese-700.woff2"
+							]
+						}
+					]
+				}
+			]
+		},
+		"useRootPaddingAwareAlignments": true
+	},
+	"styles": {
+		"blocks": {
+			"core/site-title": {
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "none"
+						}
+					}
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--medium)"
+				}
+			}
+		},
+		"color": {
+			"background": "var(--wp--preset--color--base)",
+			"text": "var(--wp--preset--color--contrast)"
+		},
+		"elements": {
+			"button": {
+				"border": {
+					"radius": "0"
+				}
+			},
+			"heading": {
+				"typography": {
+					"letterSpacing": "-1px"
+				}
+			}
+		},
+		"spacing": {
+			"padding": {
+				"top": "0",
+				"right": "var(--wp--preset--spacing--60)",
+				"bottom": "0",
+				"left": "var(--wp--preset--spacing--60)"
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--old-standard-tt)"
+		}
+	},
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header",
+			"title": "Header"
+		},
+		{
+			"area": "header",
+			"name": "header-large",
+			"title": "Large Header"
+		},
+		{
+			"area": "footer",
+			"name": "footer",
+			"title": "Footer"
+		},
+		{
+			"area": "footer",
+			"name": "footer-large",
+			"title": "Large footer"
+		}
+	],
+	"version": 2
+}
