@@ -1,0 +1,20 @@
+*.DS_Store
+
+#files not allowed by the guidelines
+thumbs.db
+desktop.ini
+project.properties
+project.xml
+.kpf
+php.ini
+dwsync.xml
+error_log
+web.config
+.sql
+__MACOSX
+.lubith
+.wie
+.dat
+**/.xml
+**/.sh
+favicon.ico
