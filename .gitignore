@@ -1,4 +1,5 @@
 *.DS_Store
+node_modules
 
 #files not allowed by the guidelines
 thumbs.db
@@ -18,3 +19,4 @@ __MACOSX
 **/.xml
 **/.sh
 favicon.ico
+
