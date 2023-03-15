@@ -1,7 +1,9 @@
 <?php
 /**
  * Title: Stacks
- * Slug: stacks/index
+ * Slug: stacks/home
+ * Block Types: core/post-content
+ * Post Types: post, page
  * Categories: featured
  */
 ?>
@@ -82,8 +84,8 @@
 <h2 class="wp-block-heading has-text-align-center has-white-color has-text-color has-x-large-font-size">Create your own Stacks</h2>
 <!-- /wp:heading -->
 
-<!-- wp:list {"ordered":true} -->
-<ol><!-- wp:list-item -->
+<!-- wp:list {"ordered":true,"textColor":"white"} -->
+<ol class="has-white-color has-text-color"><!-- wp:list-item -->
 <li>Add the "stacks" pattern to a new post.</li>
 <!-- /wp:list-item -->
 
@@ -101,8 +103,8 @@
 <div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://wordpress.org/theme/stacks">Get the Stacks theme</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
-<!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-text-color has-small-font-size">Proudly Powered by <a href="https://wordpress.org" rel="nofollow">WordPress</a>.</p>
+<!-- wp:paragraph {"textColor":"white","className":"has-text-color","fontSize":"small"} -->
+<p class="has-text-color has-white-color has-small-font-size">Proudly Powered by <a href="https://wordpress.org" rel="nofollow">WordPress</a>.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div></div>
 <!-- /wp:cover --></div>

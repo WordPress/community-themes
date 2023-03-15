@@ -1,5 +1,5 @@
 === Stacks ===
-Contributors: @SaxonF @scruffian
+Contributors: wordpressdotorg
 Requires at least: 6.2
 Tested up to: 6.2
 Requires PHP: 5.7
