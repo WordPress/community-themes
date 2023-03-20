@@ -1,0 +1,17 @@
+{
+	"name": "community-themes",
+	"version": "1.0.0",
+	"description": "WordPress Community Themes",
+	"author": "wordpressdotorg",
+	"license": "GPL-2.0",
+	"scripts": {
+		"patterns:escape": "node ./theme-utils.mjs escape-patterns"
+	},
+	"devDependencies": {
+		"fs-extra": "^11.1.0",
+		"inquirer": "^9.1.4",
+		"parse5-html-rewriting-stream": "^7.0.0",
+		"string-progressbar": "^1.0.4",
+		"table": "^6.8.1"
+	}
+}
