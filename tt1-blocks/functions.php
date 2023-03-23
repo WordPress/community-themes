@@ -87,8 +87,5 @@ function tt1_blocks_block_editor_script() {
 }
 add_action( 'enqueue_block_editor_assets', 'tt1_blocks_block_editor_script' );
 
-// Block Patterns.
-require get_template_directory() . '/inc/block-patterns.php';
-
 // Block Styles.
 require get_template_directory() . '/inc/block-styles.php';
