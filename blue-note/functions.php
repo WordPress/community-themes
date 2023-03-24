@@ -30,11 +30,16 @@ function blue_note_register_block_styles() {
 			'name'  => 'blue-note-query-slant',
 			'label' => __( 'Slanted images', 'blue-note' ),
 			'inline_style' => '
-				.is-style-blue-note-query-slant ul li:nth-child(even) .wp-block-post-featured-image {
-					transform: rotate(-1deg);
-				}
-				.is-style-blue-note-query-slant ul li:nth-child(odd) .wp-block-post-featured-image {
+				.is-style-blue-note-query-slant ul li:nth-child(odd) .wp-block-post-featured-image img {
 					transform: rotate(1deg);
+					filter: url( "#wp-duotone-black-pink");
+				}
+				.is-style-blue-note-query-slant ul li:nth-child(even) .wp-block-post-featured-image img {
+					transform: rotate(-1deg);
+					filter: url( "#wp-duotone-black-blue");
+				}
+				.is-style-blue-note-query-slant ul li:nth-child(3n) .wp-block-post-featured-image img {
+					filter: url( "#wp-duotone-black-green");
 				}
 			',
 		)
