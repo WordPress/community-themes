@@ -38,55 +38,55 @@
 			"duotone": [
 				{
 					"slug": "black-pink",
-					"name": "Duotone 1",
+					"name": "Black and pink",
 					"colors": [
 						"#000000",
 						"#C8266A"
 					]
 				},
 				{
-					"slug": "duotone-2",
-					"name": "Duotone 2",
+					"slug": "black-blue",
+					"name": "Black and blue",
 					"colors": [
 						"#000000",
 						"#3371BD"
 					]
 				},
 				{
-					"slug": "duotone-3",
-					"name": "Duotone 3",
+					"slug": "black-yellow",
+					"name": "Black and yellow",
 					"colors": [
 						"#000000",
 						"#92A317"
 					]
 				},
 				{
-					"slug": "duotone-4",
-					"name": "Duotone 4",
+					"slug": "black-pale-yellow",
+					"name": "Black and pale yellow",
 					"colors": [
 						"#000000",
 						"#FCE9A5"
 					]
 				},
 				{
-					"slug": "duotone-5",
-					"name": "Duotone 5",
+					"slug": "black-orange",
+					"name": "Black and orange",
 					"colors": [
 						"#000000",
 						"#EA5200"
 					]
 				},
 				{
-					"slug": "duotone-6",
-					"name": "Duotone 6",
+					"slug": "black-purple",
+					"name": "Black and purple",
 					"colors": [
 						"#000000",
 						"#6C4A8F"
 					]
 				},
 				{
-					"slug": "duotone-7",
-					"name": "Duotone 7",
+					"slug": "black-white",
+					"name": "Black and white",
 					"colors": [
 						"#000000",
 						"#FFFFFF"
