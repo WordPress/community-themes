@@ -53,16 +53,16 @@
 					]
 				},
 				{
-					"slug": "black-yellow",
-					"name": "Black and yellow",
+					"slug": "black-green",
+					"name": "Black and green",
 					"colors": [
 						"#000000",
 						"#92A317"
 					]
 				},
 				{
-					"slug": "black-pale-yellow",
-					"name": "Black and pale yellow",
+					"slug": "black-yellow",
+					"name": "Black and yellow",
 					"colors": [
 						"#000000",
 						"#FCE9A5"
