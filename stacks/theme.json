@@ -112,6 +112,11 @@
 				"typography": {
 					"fontFamily": "var:preset|font-family|system-font"
 				}
+			},
+			"link": {
+				"color": {
+					"text": "var:preset|color|contrast"
+				}
 			}
 		},
 		"typography": {
