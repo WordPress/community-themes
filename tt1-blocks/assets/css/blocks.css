@@ -1,8 +1,8 @@
 /*--------------------------------------------------------------
-# Cover
+# Border, for backwards compatibility
 --------------------------------------------------------------*/
 
-.wp-block-cover.is-style-twentytwentyone-border {
+.is-style-twentytwentyone-border {
 	border: 3px solid var(--wp--preset--color--dark-gray);
 }
 
@@ -49,11 +49,6 @@
 /*--------------------------------------------------------------
 # Image
 --------------------------------------------------------------*/
-
-.wp-block-image.is-style-twentytwentyone-border img,
-.wp-block-image.is-style-twentytwentyone-image-frame img {
-	border: 3px solid var(--wp--preset--color--dark-gray);
-}
 
 .wp-block-image.is-style-twentytwentyone-image-frame img {
 	padding: var(--wp--custom--spacing--unit);
@@ -131,14 +126,6 @@
 .wp-block-latest-posts.is-style-twentytwentyone-latest-posts-borders:not(.is-grid) li {
 	margin-top: var(--wp--custom--spacing--horizontal);
 	margin-bottom: var(--wp--custom--spacing--horizontal);
-}
-
-/*--------------------------------------------------------------
-# Media & Text
---------------------------------------------------------------*/
-
-.wp-block-media-text.is-style-twentytwentyone-border {
-	border: 3px solid var(--wp--preset--color--dark-gray);
 }
 
 /*--------------------------------------------------------------
