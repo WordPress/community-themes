@@ -90,7 +90,7 @@
 			"button": {
 				"color": {
 					"background": "var:preset|color|contrast",
-					"text": "var(--wp--preset--color--base)"
+					"text": "var:preset|color|base"
 				}
 			},
 			"h1": {
