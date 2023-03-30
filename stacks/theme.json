@@ -4,7 +4,7 @@
 		"color": {
 			"palette": [
 				{
-					"color": "#fbfbfe",
+					"color": "#f6f6f6",
 					"name": "Base",
 					"slug": "base"
 				},
@@ -14,9 +14,19 @@
 					"slug": "contrast"
 				},
 				{
-					"color": "#0510ed",
+					"color": "#ECC76A",
 					"name": "Primary",
 					"slug": "primary"
+				},
+				{
+					"color": "#B58ECD",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "#AACD8E",
+					"name": "Tertiary",
+					"slug": "tertiary"
 				}
 			]
 		},
@@ -41,26 +51,77 @@
 					"name": "System Font",
 					"slug": "system-font"
 				}
+			],
+			"fontSizes": [
+				{
+					"name": "sm",
+					"size": "1rem",
+					"slug": "sm"
+				},
+				{
+					"name": "md",
+					"size": "1.333rem",
+					"slug": "md"
+				},
+				{
+					"name": "lg",
+					"size": "2.369rem",
+					"slug": "lg"
+				},
+				{
+					"name": "xl",
+					"size": "3.157rem",
+					"slug": "xl"
+				},
+				{
+					"name": "xxl",
+					"size": "4.209rem",
+					"slug": "xxl"
+				}
 			]
 		}
 	},
 	"styles": {
+		"color": {
+			"background": "var:preset|color|base",
+			"text": "var:preset|color|contrast"
+		},
 		"elements": {
 			"button": {
 				"color": {
-					"background": "var(--wp--preset--color--primary)",
-					"text": "var(--wp--preset--color--base)"
+					"background": "var:preset|color|contrast",
+					"text": "var:preset|color|base"
+				}
+			},
+			"h1": {
+				"typography": {
+					"fontSize": "var:preset|font-size|xxl",
+					"lineHeight": 1
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontSize": "var:preset|font-size|xxl",
+					"lineHeight": 1.2
 				}
 			},
 			"heading": {
+				"color": {
+					"text": "#000000"
+				},
 				"typography": {
 					"fontFamily": "var:preset|font-family|system-font"
+				}
+			},
+			"link": {
+				"color": {
+					"text": "var:preset|color|contrast"
 				}
 			}
 		},
 		"typography": {
 			"fontFamily": "var:preset|font-family|system-font",
-			"fontSize": "var:preset|font-size|medium",
+			"fontSize": "var:preset|font-size|md",
 			"lineHeight": "1.4"
 		}
 	},
