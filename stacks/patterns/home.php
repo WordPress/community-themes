@@ -64,8 +64,8 @@
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
-<!-- wp:paragraph {"fontSize":"sm"} -->
-<p class="has-sm-font-size"><?php echo esc_html__( 'Proudly Powered by', 'stacks' ); ?><a rel="nofollow" href="https://wordpress.org"><?php echo esc_html__( 'WordPress', 'stacks' ); ?></a><?php echo esc_html__( '.', 'stacks' ); ?></p>
+<!-- wp:paragraph {"fontSize":"sm","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}}} -->
+<p class="has-sm-font-size has-link-color"><?php echo esc_html__( 'Proudly Powered by ', 'stacks' ); ?><a rel="nofollow" href="https://wordpress.org"><?php echo esc_html__( 'WordPress', 'stacks' ); ?></a><?php echo esc_html__( '.', 'stacks' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
