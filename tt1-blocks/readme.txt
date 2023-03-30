@@ -1,7 +1,7 @@
 === TT1 Blocks ===
 Contributors: wordpressdotorg
 Requires at least: 5.6
-Tested up to: 5.8
+Tested up to: 6.2
 Requires PHP: 5.6
 Stable tag: 0.4.8
 License: GPLv2 or later
@@ -24,6 +24,10 @@ This theme is beta software, and is not meant for use on a production site. Bug 
 5. From your admin panel, visit the Site Editor to customize your site.
 
 == Changelog ==
+
+= 1.0.0 =
+* Update to work with changes from WordPress 6.2 onwards
+
 = 0.4.8 =
 * Update for compatibility with Gutenberg v12.1
 
