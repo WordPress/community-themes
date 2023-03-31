@@ -3,7 +3,6 @@
 --------------------------------------------------------------*/
 
 body {
-	font-family: var(--wp--custom--font-primary);
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 }

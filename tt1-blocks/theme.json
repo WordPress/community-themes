@@ -173,7 +173,7 @@
 			"core/site-tagline": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--small)",
-					"lineHeight": 1.4
+					"lineHeight": "1.4"
 				},
 				"spacing": {
 					"margin": {
@@ -192,7 +192,7 @@
 				},
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--normal)",
-					"fontWeight": 500
+					"fontWeight": "500"
 				}
 			},
 			"core/comment-author-name": {
@@ -327,8 +327,9 @@
 			}
 		},
 		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--system-font)",
 			"fontSize": "var(--wp--preset--font-size--normal)",
-			"lineHeight": 1.7
+			"lineHeight": "1.7"
 		}
 	},
 	"templateParts": [
