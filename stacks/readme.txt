@@ -17,7 +17,7 @@ Stack your story
 
 == Copyright ==
 
-Stacks WordPress Theme, (C) 2023 Automattic
+Stacks WordPress Theme.
 Stacks is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
