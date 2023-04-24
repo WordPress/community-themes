@@ -12,12 +12,12 @@ Stack your story
 
 == Changelog ==
 
-= 0.0.1 =
+= 0.0.2 =
 * Initial release
 
 == Copyright ==
 
-Stacks WordPress Theme, (C) 2023 Automattic
+Stacks WordPress Theme.
 Stacks is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
