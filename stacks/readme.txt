@@ -8,11 +8,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Stack your story
+Stack your story. This theme is designed specifically to create slide decks that can be used as a presentation. The "Stacks" pattern can be included on any page or post.
 
 == Changelog ==
 
-= 0.0.2 =
+= 0.0.3 =
 * Initial release
 
 == Copyright ==

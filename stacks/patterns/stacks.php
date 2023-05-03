@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Stacks
- * Slug: stacks/home
+ * Slug: stacks/stacks
  * Block Types: core/post-content
  * Categories: featured
  */
