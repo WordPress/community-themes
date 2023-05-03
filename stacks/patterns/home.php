@@ -7,11 +7,11 @@
  */
 ?>
 
-<!-- wp:group {"style":{"dimensions":{"minHeight":"100vh"},"position":{"type":"sticky","top":"0px"},"spacing":{"padding":{"top":"var:preset|spacing|70","right":"var:preset|spacing|70","bottom":"var:preset|spacing|70","left":"var:preset|spacing|70"}},"border":{"radius":"25px"}},"backgroundColor":"primary","layout":{"type":"flex","orientation":"vertical","verticalAlignment":"top","justifyContent":"left"}} -->
-<div class="wp-block-group has-primary-background-color has-background" style="border-radius:25px;min-height:100vh;padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--70)"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<!-- wp:group {"style":{"dimensions":{"minHeight":"100vh"},"position":{"type":"sticky","top":"0px"},"spacing":{"padding":{"top":"var:preset|spacing|70","right":"var:preset|spacing|70","bottom":"var:preset|spacing|70","left":"var:preset|spacing|70"}},"border":{"radius":{"topLeft":"0px","topRight":"0px","bottomLeft":"25px","bottomRight":"25px"}}},"backgroundColor":"primary","layout":{"type":"flex","orientation":"vertical","verticalAlignment":"top","justifyContent":"left"}} -->
+<div class="wp-block-group has-primary-background-color has-background" style="border-top-left-radius:0px;border-top-right-radius:0px;border-bottom-left-radius:25px;border-bottom-right-radius:25px;min-height:100vh;padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--70)"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:group {"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:heading {"level":1} -->
-<h1 class="wp-block-heading"><?php echo esc_html__( 'This is a Stack', 'stacks' ); ?></h1>
+<div class="wp-block-group"><!-- wp:heading {"level":1,"fontSize":"xxl"} -->
+<h1 class="wp-block-heading has-xxl-font-size"><?php echo esc_html__( 'This is a Stack', 'stacks' ); ?></h1>
 <!-- /wp:heading --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -47,8 +47,8 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"style":{"dimensions":{"minHeight":"100vh"},"position":{"type":"sticky","top":"0px"},"spacing":{"padding":{"top":"var:preset|spacing|70","right":"var:preset|spacing|70","bottom":"var:preset|spacing|70","left":"var:preset|spacing|70"}},"border":{"radius":"25px"}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"flex","orientation":"vertical","verticalAlignment":"top","justifyContent":"left"}} -->
-<div class="wp-block-group has-base-color has-contrast-background-color has-text-color has-background" style="border-radius:25px;min-height:100vh;padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--70)"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<!-- wp:group {"style":{"dimensions":{"minHeight":"100vh"},"position":{"type":"sticky","top":"0px"},"spacing":{"padding":{"top":"var:preset|spacing|70","right":"var:preset|spacing|70","bottom":"var:preset|spacing|70","left":"var:preset|spacing|70"}},"border":{"radius":{"topLeft":"25px","topRight":"25px","bottomLeft":"0px","bottomRight":"0px"}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"flex","orientation":"vertical","verticalAlignment":"top","justifyContent":"left"}} -->
+<div class="wp-block-group has-base-color has-contrast-background-color has-text-color has-background" style="border-top-left-radius:25px;border-top-right-radius:25px;border-bottom-left-radius:0px;border-bottom-right-radius:0px;min-height:100vh;padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--70)"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:heading {"textColor":"base","fontSize":"x-large"} -->
 <h2 class="wp-block-heading has-base-color has-text-color has-x-large-font-size"><?php echo esc_html__( 'Create your own Stack', 'stacks' ); ?></h2>
