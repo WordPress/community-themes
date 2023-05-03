@@ -125,16 +125,6 @@
 			"lineHeight": "1.4"
 		}
 	},
-	"templateParts": [
-		{
-			"area": "header",
-			"name": "header"
-		},
-		{
-			"area": "footer",
-			"name": "footer"
-		}
-	],
 	"version": 2,
 	"$schema": "https://schemas.wp.org/trunk/theme.json"
 }
