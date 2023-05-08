@@ -14,7 +14,7 @@ To get started with development you have a couple of options. You can set up a l
 
 **If you prefer to use the Playground:**
 
-1. Visit the [Playground](https://playground.wordpress.net/?theme=twentytwentythree&plugin=gutenberg&plugin=create-block-theme.1.8.2.zip&url=/wp-admin/index.php). This instance has the Create Block Theme plugin installed.
+1. Visit the [Playground](https://playground.wordpress.net/?theme=twentytwentythree&plugin=gutenberg&plugin=create-block-theme&url=/wp-admin/index.php). This instance has the Create Block Theme plugin installed.
 1. Go to Appearance/Site Editor and build your theme!
 2. Export it using the Create Block Theme plugin under Appearance/Create Block Theme
 
