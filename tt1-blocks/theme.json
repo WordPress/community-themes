@@ -260,6 +260,16 @@
 					"width": "3px"
 				}
 			},
+			"core/separator": {
+				"border": {
+					"color": "currentColor",
+					"style": "solid",
+					"width": "0 0 1px 0"
+				},
+				"color": {
+					"text": "var(--wp--preset--color--dark-gray)"
+				}
+			},
 			"core/site-title": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--large)",

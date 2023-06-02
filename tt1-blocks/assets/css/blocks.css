@@ -132,13 +132,6 @@
 # Separator
 --------------------------------------------------------------*/
 
-hr,
-.wp-block-separator {
-	border-bottom: 1px solid var(--wp--preset--color--dark-gray);
-	clear: both;
-	opacity: 1;
-}
-
 hr[style*="text-align:right"],
 hr[style*="text-align: right"],
 .wp-block-separator[style*="text-align:right"],
