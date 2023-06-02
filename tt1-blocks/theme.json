@@ -302,6 +302,11 @@
 			"link": {
 				"color": {
 					"text": "var(--wp--preset--color--dark-gray)"
+				},
+				":hover": {
+					"typography": {
+						"textDecoration": "underline dotted"
+					}
 				}
 			},
 			"heading": {
