@@ -1,8 +1,8 @@
 /*--------------------------------------------------------------
-# Cover
+# Border, for backwards compatibility
 --------------------------------------------------------------*/
 
-.wp-block-cover.is-style-twentytwentyone-border {
+.is-style-twentytwentyone-border {
 	border: 3px solid var(--wp--preset--color--dark-gray);
 }
 
@@ -50,15 +50,6 @@
 # Image
 --------------------------------------------------------------*/
 
-.wp-block-image img {
-	height: auto;
-}
-
-.wp-block-image.is-style-twentytwentyone-border img,
-.wp-block-image.is-style-twentytwentyone-image-frame img {
-	border: 3px solid var(--wp--preset--color--dark-gray);
-}
-
 .wp-block-image.is-style-twentytwentyone-image-frame img {
 	padding: var(--wp--custom--spacing--unit);
 }
@@ -66,10 +57,6 @@
 /*--------------------------------------------------------------
 # Latest Posts
 --------------------------------------------------------------*/
-
-.wp-block-latest-posts {
-	padding-left: 0;
-}
 
 .wp-block-latest-posts.is-style-twentytwentyone-latest-posts-dividers {
 	border-top: 3px solid var(--wp--preset--color--dark-gray);
@@ -138,34 +125,8 @@
 }
 
 /*--------------------------------------------------------------
-# Media & Text
---------------------------------------------------------------*/
-
-.wp-block-media-text.is-style-twentytwentyone-border {
-	border: 3px solid var(--wp--preset--color--dark-gray);
-}
-
-/*--------------------------------------------------------------
-# Navigation
---------------------------------------------------------------*/
-
-.wp-block-navigation .wp-block-navigation-link a:hover {
-	text-decoration: underline;
-	text-underline-offset: 3px;
-	text-decoration-style: dotted;
-	text-decoration-skip-ink: none;
-}
-
-/*--------------------------------------------------------------
 # Separator
 --------------------------------------------------------------*/
-
-hr,
-.wp-block-separator {
-	border-bottom: 1px solid var(--wp--preset--color--dark-gray);
-	clear: both;
-	opacity: 1;
-}
 
 hr[style*="text-align:right"],
 hr[style*="text-align: right"],
@@ -179,23 +140,7 @@ hr.is-style-twentytwentyone-separator-thick,
 	border-bottom-width: 3px;
 }
 
-.wp-block-separator.is-style-dots {
-	border-bottom: none;
-}
-
-.wp-block-separator.is-style-dots > hr {
-	display: none;
-}
-
 /* In Twenty Twenty-One, separators are 100% wide. This replicates that approach */
 .wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
 	width: 100%;
-}
-
-/*--------------------------------------------------------------
-# Site Title
---------------------------------------------------------------*/
-
-h1.wp-block-site-title a:not(:hover):not(:focus):not(:active) {
-	text-decoration: none;
 }
