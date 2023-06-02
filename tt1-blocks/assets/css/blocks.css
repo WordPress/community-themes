@@ -129,17 +129,6 @@
 }
 
 /*--------------------------------------------------------------
-# Navigation
---------------------------------------------------------------*/
-
-.wp-block-navigation .wp-block-navigation-link a:hover {
-	text-decoration: underline;
-	text-underline-offset: 3px;
-	text-decoration-style: dotted;
-	text-decoration-skip-ink: none;
-}
-
-/*--------------------------------------------------------------
 # Separator
 --------------------------------------------------------------*/
 

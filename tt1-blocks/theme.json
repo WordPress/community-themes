@@ -215,6 +215,17 @@
 					"fontSize": "var(--wp--preset--font-size--small)"
 				}
 			},
+			"core/navigation": {
+				"elements": {
+					"link": {
+						":hover": {
+							"typography": {
+								"textDecoration": "underline dotted"
+							}
+						}
+					}
+				}
+			},
 			"core/post-author": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--extra-small)"
