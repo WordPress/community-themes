@@ -58,10 +58,6 @@
 # Latest Posts
 --------------------------------------------------------------*/
 
-.wp-block-latest-posts {
-	padding-left: 0;
-}
-
 .wp-block-latest-posts.is-style-twentytwentyone-latest-posts-dividers {
 	border-top: 3px solid var(--wp--preset--color--dark-gray);
 	border-bottom: 3px solid var(--wp--preset--color--dark-gray);
