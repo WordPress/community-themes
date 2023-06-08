@@ -21,6 +21,9 @@ if ( ! function_exists( 'tt1_blocks_setup' ) ) {
 	 * @return void
 	 */
 	function tt1_blocks_setup() {
+		// Add support for editor styles.
+		add_theme_support( 'editor-styles' );
+
 		// Enqueue editor styles.
 		add_editor_style(
 			array(
