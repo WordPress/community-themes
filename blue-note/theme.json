@@ -85,11 +85,11 @@
 					]
 				},
 				{
-					"slug": "black-white",
-					"name": "Black and white",
+					"slug": "black-base",
+					"name": "Black and Base",
 					"colors": [
 						"#000000",
-						"#FFFFFF"
+						"#F5F3EA"
 					]
 				}
 			]
@@ -173,11 +173,47 @@
 			"button": {
 				"border": {
 					"radius": "0"
+				},
+				"color":{
+					"background": {
+						"ref": "styles.color.text"
+					}
 				}
 			},
 			"heading": {
 				"typography": {
 					"letterSpacing": "-1px"
+				}
+			},
+			"link": {
+				"color": {
+					"text": {
+						"ref": "styles.color.text"
+					}
+				}
+			},
+			"textarea": {
+				"border": {
+					"color": {
+						"ref": "styles.color.text"
+					}
+				},
+				"color": {
+					"background": {
+						"ref": "styles.color.background"
+					}
+				}
+			},
+			"input": {
+				"border": {
+					"color": {
+						"ref": "styles.color.text"
+					}
+				},
+				"color": {
+					"background": {
+						"ref": "styles.color.background"
+					}
 				}
 			}
 		},
