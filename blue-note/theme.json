@@ -191,6 +191,13 @@
 						"ref": "styles.color.text"
 					}
 				}
+			},
+			"textarea": {
+				"color": {
+					"background": {
+						"ref": "styles.color.background"
+					}
+				}
 			}
 		},
 		"spacing": {
