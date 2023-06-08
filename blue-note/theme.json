@@ -173,11 +173,23 @@
 			"button": {
 				"border": {
 					"radius": "0"
+				},
+				"color":{
+					"background": {
+						"ref": "styles.color.text"
+					}
 				}
 			},
 			"heading": {
 				"typography": {
 					"letterSpacing": "-1px"
+				}
+			},
+			"link": {
+				"color": {
+					"text": {
+						"ref": "styles.color.text"
+					}
 				}
 			}
 		},
