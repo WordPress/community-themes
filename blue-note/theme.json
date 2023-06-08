@@ -85,11 +85,11 @@
 					]
 				},
 				{
-					"slug": "black-white",
-					"name": "Black and white",
+					"slug": "black-base",
+					"name": "Black and Base",
 					"colors": [
 						"#000000",
-						"#FFFFFF"
+						"#F5F3EA"
 					]
 				}
 			]
