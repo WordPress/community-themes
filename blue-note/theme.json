@@ -192,19 +192,7 @@
 					}
 				}
 			},
-			"textarea": {
-				"border": {
-					"color": {
-						"ref": "styles.color.text"
-					}
-				},
-				"color": {
-					"background": {
-						"ref": "styles.color.background"
-					}
-				}
-			},
-			"input": {
+			"textInput": {
 				"border": {
 					"color": {
 						"ref": "styles.color.text"
