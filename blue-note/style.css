@@ -13,3 +13,14 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: blue-note
 Tags: custom-colors, custom-logo, custom-menu, editor-style, featured-images, blog, block-patterns, one-column, two-columns, three-columns, four-columns, rtl-language-support, threaded-comments, translation-ready, wide-blocks, full-site-editing
 */
+
+/*
+Kim Clow's suggested CSS for the 404 page. Refer to issue #12 in the repo for details.
+*/
+.error404 .wp-block-search .wp-block-search__input {
+	background: transparent;
+	height: 77px;
+	padding-left: 25px;
+	padding-top: 22px;
+	padding-bottom: 22px;
+}
