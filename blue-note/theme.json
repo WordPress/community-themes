@@ -193,7 +193,7 @@
 						"max": "3.75rem"
 					},
 					"size": "3.75em",
-					"slug": "extra-extra-large"
+					"slug": "xx-large"
 				},
 				{
 					"fluid": false,
@@ -248,7 +248,7 @@
 			},
 			"h2": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--extra-extra-large)",
+					"fontSize": "var(--wp--preset--font-size--xx-large)",
 					"lineHeight": "4.875rem"
 				}
 			},
