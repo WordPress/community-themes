@@ -261,13 +261,15 @@
 			"h4": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--large)",
-					"lineHeight": "3.125rem"
+					"lineHeight": "3.125rem",
+					"fontWeight": "700"
 				}
 			},
 			"h5": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--medium)",
-					"lineHeight": "2.875rem"
+					"lineHeight": "2.875rem",
+					"fontWeight": "700"
 				}
 			},
 			"h6": {
