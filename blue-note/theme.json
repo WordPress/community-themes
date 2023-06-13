@@ -146,6 +146,60 @@
 						}
 					]
 				}
+			],
+			"fontSizes": [
+				{
+					"fluid": false,
+					"size": "0.875rem",
+					"slug": "extra-small"
+				},
+				{
+					"fluid": {
+						"min": "0.875rem",
+						"max": "1rem"
+					},
+					"size": "1rem",
+					"slug": "small"
+				},
+				{
+					"fluid": false,
+					"size": "1.375rem",
+					"slug": "normal"
+				},
+				{
+					"fluid": {
+						"min": "1.375rem",
+						"max": "1.625rem"
+					},
+					"size": "1.625rem",
+					"slug": "medium"
+				},
+				{
+					"fluid": {
+						"min": "1.625rem",
+						"max": "1.875rem"
+					},
+					"size": "1.875rem",
+					"slug": "large"
+				},
+				{
+					"fluid": false,
+					"size": "2.5rem",
+					"slug": "extra-large"
+				},
+				{
+					"fluid": {
+						"min": "2.5rem",
+						"max": "3.75rem"
+					},
+					"size": "3.75em",
+					"slug": "extra-extra-large"
+				},
+				{
+					"fluid": false,
+					"size": "5rem",
+					"slug": "huge"
+				}
 			]
 		},
 		"useRootPaddingAwareAlignments": true
