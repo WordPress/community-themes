@@ -272,7 +272,8 @@
 			},
 			"h6": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--normal)"
+					"fontSize": "var(--wp--preset--font-size--normal)",
+					"textTransform": "uppercase"
 				}
 			},
 			"link": {
