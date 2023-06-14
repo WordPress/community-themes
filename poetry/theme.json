@@ -1,0 +1,149 @@
+{
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"palette": [
+				{
+					"color": "#ffffff",
+					"name": "Background",
+					"slug": "custom-background"
+				},
+				{
+					"color": "#000",
+					"name": "Text",
+					"slug": "custom-text"
+				},
+				{
+					"color": "#f4fffe",
+					"name": "Background Light",
+					"slug": "custom-background-light"
+				},
+				{
+					"color": "#d75720",
+					"name": "Contrast",
+					"slug": "custom-contrast"
+				}
+			]
+		},
+		"layout": {
+			"contentSize": "900px",
+			"wideSize": "1200px"
+		},
+		"spacing": {
+			"units": [
+				"%",
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw"
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+					"name": "System Font",
+					"slug": "system-font"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Rozha One",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/rozha-one_normal_400.ttf"
+							]
+						}
+					],
+					"fontFamily": "Rozha One",
+					"slug": "rozha-one"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/inter_normal_300.ttf"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/inter_normal_600.ttf"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/inter_normal_700.ttf"
+							]
+						}
+					],
+					"fontFamily": "Inter",
+					"slug": "inter"
+				}
+			]
+		}
+	},
+	"styles": {
+		"color": {
+			"background": "var:preset|color|white"
+		},
+		"elements": {
+			"h1": {
+				"typography": {
+					"fontFamily": "Rozha One",
+					"fontSize": "120px",
+					"fontStyle": "normal",
+					"fontWeight": "400",
+					"lineHeight": 0.8
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontFamily": "Rozha One",
+					"fontSize": "80px",
+					"lineHeight": "0.8"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontFamily": "Inter",
+					"fontSize": "24px",
+					"fontStyle": "normal",
+					"fontWeight": "400",
+					"lineHeight": 1.5
+				}
+			},
+			"heading": {
+				"typography": {
+					"fontFamily": "Rozha One"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var:preset|font-family|inter",
+			"lineHeight": 2
+		}
+	},
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header"
+		},
+		{
+			"area": "footer",
+			"name": "footer"
+		}
+	],
+	"version": 2,
+	"$schema": "https://schemas.wp.org/wp/6.1/theme.json"
+}
