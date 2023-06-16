@@ -225,6 +225,29 @@
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--normal)"
 				}
+			},
+			"core/post-date": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--medium)",
+					"fontStyle": "italic"
+				}
+			},
+			"core/query-pagination": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--medium)"
+				}
+			},
+			"core/query-pagination-next": {
+				"typography": {
+					"textDecoration": "none",
+					"lineHeight": "1"
+				}
+			},
+			"core/query-pagination-previous": {
+				"typography": {
+					"textDecoration": "none",
+					"lineHeight": "1"
+				}
 			}
 		},
 		"color": {
