@@ -22,26 +22,12 @@ if ( ! function_exists( 'tt1_blocks_setup' ) ) {
 	 */
 	function tt1_blocks_setup() {
 		/*
-		 * Make theme available for translation.
-		 * Translations can be filed in the /languages/ directory.
-		 * If you're building a theme based on TT1 Blocks, use a find and replace
-		 * to change 'tt1-blocks' to the name of your theme in all the template files.
-		 */
-		load_theme_textdomain( 'tt1-blocks', get_template_directory() . '/languages' );
-
-		// Add default posts and comments RSS feed links to head.
-		add_theme_support( 'automatic-feed-links' );
-
-		/*
 		 * Enable support for Post Thumbnails on posts and pages.
 		 *
 		 * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 		 */
 		add_theme_support( 'post-thumbnails' );
 		set_post_thumbnail_size( 1568, 9999 );
-
-		// Add support for Block Styles.
-		add_theme_support( 'wp-block-styles' );
 
 		// Add support for editor styles.
 		add_theme_support( 'editor-styles' );
@@ -73,19 +59,3 @@ function tt1_blocks_enqueue_styles() {
 	wp_enqueue_style( 'tt1-blocks-blocks', get_template_directory_uri() . '/assets/css/blocks.css', array(), wp_get_theme()->get( 'Version' ) );
 }
 add_action( 'wp_enqueue_scripts', 'tt1_blocks_enqueue_styles' );
-
-/**
- * Enqueue block editor script.
- *
- * @since 0.1
- *
- * @return void
- */
-function tt1_blocks_block_editor_script() {
-
-	wp_enqueue_script( 'tt1-blocks-unregister-block-style', get_theme_file_uri( '/assets/js/unregister-block-style.js' ), array( 'wp-blocks', 'wp-dom' ), wp_get_theme()->get( 'Version' ), true );
-}
-add_action( 'enqueue_block_editor_assets', 'tt1_blocks_block_editor_script' );
-
-// Block Styles.
-require get_template_directory() . '/inc/block-styles.php';
