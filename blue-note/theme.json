@@ -248,6 +248,17 @@
 					"textDecoration": "none",
 					"lineHeight": "1"
 				}
+			},
+			"core/post-title": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--extra-large)"
+				}
+			},
+			"core/post-content": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--normal)",
+					"lineHeight": "1.6"
+				}
 			}
 		},
 		"color": {
