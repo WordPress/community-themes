@@ -42,3 +42,31 @@ function blue_note_register_block_styles() {
 }
 add_action( 'init', 'blue_note_register_block_styles' );
 
+/**
+ * Enqueue style.css file.
+ */
+if ( ! function_exists( 'blue_note_styles' ) ) :
+
+	/**
+	 * Enqueue styles.
+	 *
+	 * @return void
+	 */
+	function blue_note_styles() {
+
+		// Register theme stylesheet.
+		wp_register_style(
+			'blue_note-style',
+			get_stylesheet_directory_uri() . '/style.css',
+			array(),
+			wp_get_theme()->get( 'Version' )
+		);
+
+		// Enqueue theme stylesheet.
+		wp_enqueue_style( 'blue_note-style' );
+
+	}
+
+endif;
+
+add_action( 'wp_enqueue_scripts', 'blue_note_styles' );
