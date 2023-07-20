@@ -14,3 +14,4 @@
 - [mkwpdev](https://github.com/mkwpdev)
 - [RobVanMaatwerkOnline](https://github.com/RobVanMaatwerkOnline)
 - [vaibhavagar](https://github.com/vaibhavagar)
+- [Mooore](https://github.com/Mooore)
