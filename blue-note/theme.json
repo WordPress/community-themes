@@ -214,6 +214,15 @@
 	},
 	"styles": {
 		"blocks": {
+			"core/button": {
+				"variations": {
+					"outline": {
+						"border": {
+							"width": "1px"
+						}
+					}
+				}
+			},
 			"core/site-title": {
 				"elements": {
 					"link": {
@@ -267,12 +276,55 @@
 		},
 		"elements": {
 			"button": {
+				"spacing": {
+					"padding": {
+						"top": "calc(0.667em + 1px)",
+						"right": "calc(1.333em + 1px)",
+						"bottom": "calc(0.667em + 1px)",
+						"left": "calc(1.333em + 1px)"
+					}
+				},
 				"border": {
-					"radius": "0"
+					"radius": "0",
+					"color": "transparent",
+					"width": "1px",
+					"style": "solid"
 				},
 				"color":{
 					"background": {
 						"ref": "styles.color.text"
+					}
+				},
+				":hover": {
+					"color": {
+						"text": "var(--wp--preset--color--contrast)",
+						"background": "var(--wp--preset--color--base)"
+					},
+					"border": {
+						"color": "var(--wp--preset--color--contrast)"
+					}
+				},
+				":active": {
+					"color": {
+						"text": "var(--wp--preset--color--base)",
+						"background": "var(--wp--preset--color--secondary)"
+					},
+					"border": {
+						"color": "transparent"
+					}
+				},
+				":focus": {
+					"color": {
+						"text": "var(--wp--preset--color--contrast)",
+						"background": "var(--wp--preset--color--base)"
+					},
+					"border": {
+						"color": "var(--wp--preset--color--contrast)"
+					},
+					"outline": {
+						"width": "1px",
+						"color": "var(--wp--preset--color--secondary)",
+						"offset": "4px"
 					}
 				}
 			},
@@ -324,6 +376,31 @@
 				"color": {
 					"text": {
 						"ref": "styles.color.text"
+					}
+				},
+				":hover": {
+					"typography": {
+						"textDecoration": "none"
+					}
+				},
+				":active": {
+					"color" : {
+						"text": "var(--wp--preset--color--secondary)"
+					},
+					"typography": {
+						"textDecoration": "underline"
+					}
+				},
+				":focus": {
+					"outline": {
+						"width": "1px",
+						"color": "var(--wp--preset--color--secondary)"
+					},
+					"color" : {
+						"text": "var(--wp--preset--color--secondary)"
+					},
+					"typography": {
+						"textDecoration": "underline"
 					}
 				}
 			},
