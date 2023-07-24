@@ -1,9 +1,9 @@
 <?php
 /**
- * Title: Categories
+ * Title: Post list
  * Slug: blue-note/posts
- * Categories: uncategorized
- * Block Types: core/query-loop
+ * Categories: query posts
+ * Block Types: core/query
  */
 ?>
 
