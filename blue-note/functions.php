@@ -70,3 +70,4 @@ if ( ! function_exists( 'blue_note_styles' ) ) :
 endif;
 
 add_action( 'wp_enqueue_scripts', 'blue_note_styles' );
+add_action( 'enqueue_block_editor_assets', 'blue_note_styles' );
