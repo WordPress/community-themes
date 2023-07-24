@@ -24,3 +24,18 @@ Kim Clow's suggested CSS for the 404 page. Refer to issue #12 in the repo for de
 	padding-top: 22px;
 	padding-bottom: 22px;
 }
+
+.stacked-featured-images {
+	display: grid;
+}
+
+.stacked-featured-images .wp-block-post-featured-image {
+	grid-area: 1 / 1 / 2 / 2;
+	z-index: 1;
+}
+
+.has-stacked-featured-images li:nth-child(3n+1) .stacked-featured-images .wp-block-post-featured-image:nth-child(1),
+.has-stacked-featured-images li:nth-child(3n+2) .stacked-featured-images .wp-block-post-featured-image:nth-child(2),
+.has-stacked-featured-images li:nth-child(3n+3) .stacked-featured-images .wp-block-post-featured-image:nth-child(3){
+	z-index: 2;
+}
