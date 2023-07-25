@@ -223,6 +223,9 @@
 					}
 				}
 			},
+			"core/comment-content": {
+				"css": " & a{text-decoration:underline;} & a:hover{text-decoration:none;}"
+			},
 			"core/comment-template": {
 				"elements": {
 					"link": {
