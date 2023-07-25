@@ -11,7 +11,7 @@ function blue_note_register_block_styles() {
 			array(
 				'name'         => 'blue-note-slant-right',
 				'label'        => __( 'Slant right', 'blue-note' ),
-				'inline_style' => '.is-style-blue-note-slant-right{ transform: rotate(1deg); }',
+				'inline_style' => '.is-style-blue-note-slant-right{ transform: rotate(2deg); }',
 			)
 		);
 		register_block_style(
@@ -19,7 +19,7 @@ function blue_note_register_block_styles() {
 			array(
 				'name'         => 'blue-note-slant-left',
 				'label'        => __( 'Slant left', 'blue-note' ),
-				'inline_style' => '.is-style-blue-note-slant-left{ transform: rotate(-1deg); }',
+				'inline_style' => '.is-style-blue-note-slant-left{ transform: rotate(-2deg); }',
 			)
 		);
 	}
@@ -31,10 +31,10 @@ function blue_note_register_block_styles() {
 			'label' => __( 'Slanted images', 'blue-note' ),
 			'inline_style' => '
 				.is-style-blue-note-query-slant ul li:nth-child(odd) .wp-block-post-featured-image img {
-					transform: rotate(1deg);
+					transform: rotate(2deg);
 				}
 				.is-style-blue-note-query-slant ul li:nth-child(even) .wp-block-post-featured-image img {
-					transform: rotate(-1deg);
+					transform: rotate(-2deg);
 				}
 			',
 		)
@@ -70,3 +70,4 @@ if ( ! function_exists( 'blue_note_styles' ) ) :
 endif;
 
 add_action( 'wp_enqueue_scripts', 'blue_note_styles' );
+add_action( 'enqueue_block_editor_assets', 'blue_note_styles' );

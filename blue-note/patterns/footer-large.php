@@ -19,7 +19,7 @@
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group"><!-- wp:group -->
-<div class="wp-block-group"><!-- wp:site-title /-->
+<div class="wp-block-group"><!-- wp:site-title {"level":0} /-->
 
 <!-- wp:paragraph -->
 <p><?php esc_html_e( 'Built with WordPress', 'blue-note' ); ?></p>

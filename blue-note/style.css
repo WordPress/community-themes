@@ -3,7 +3,7 @@ Theme Name: Blue Note
 Theme URI: https://github.com/WordPress/community-themes/tree/trunk/blue-note
 Author: the WordPress team
 Author URI: https://wordpress.org
-Description: 
+Description:
 Requires at least: 6.1
 Tested up to: 6.2
 Requires PHP: 7.4
@@ -23,4 +23,19 @@ Kim Clow's suggested CSS for the 404 page. Refer to issue #12 in the repo for de
 	padding-left: 25px;
 	padding-top: 22px;
 	padding-bottom: 22px;
+}
+
+.blue-note-stacked-featured-images {
+	display: grid;
+}
+
+.blue-note-stacked-featured-images .wp-block-post-featured-image {
+	grid-area: 1 / 1 / 2 / 2;
+	z-index: 1;
+}
+
+.has-stacked-featured-images li:nth-child(3n+1) .blue-note-stacked-featured-images .wp-block-post-featured-image:nth-child(1),
+.has-stacked-featured-images li:nth-child(3n+2) .blue-note-stacked-featured-images .wp-block-post-featured-image:nth-child(2),
+.has-stacked-featured-images li:nth-child(3n+3) .blue-note-stacked-featured-images .wp-block-post-featured-image:nth-child(3){
+	z-index: 2;
 }
