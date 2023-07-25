@@ -11,7 +11,7 @@
 <main class="wp-block-group" style="margin-top:100px"><!-- wp:columns {"verticalAlignment":null,"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"verticalAlignment":"top","width":"65%","style":{"spacing":{"blockGap":"56px"}}} -->
 <div class="wp-block-column is-vertically-aligned-top" style="flex-basis:65%"><!-- wp:heading {"level":1,"style":{"typography":{"fontSize":"180px","fontStyle":"normal","fontWeight":"400","lineHeight":"1.10","letterSpacing":"-0.03em"}},"fontFamily":"old-standard-tt"} -->
-<h1 class="wp-block-heading has-old-standard-tt-font-family" style="font-size:180px;font-style:normal;font-weight:400;letter-spacing:-0.03em;line-height:1.10"><?php esc_html_e( 'Learn all about jazz!' , 'blue-note' ); ?></h1>
+<h1 class="wp-block-heading has-old-standard-tt-font-family" style="font-size:180px;font-style:normal;font-weight:400;letter-spacing:-0.03em;line-height:1.10"><?php esc_html_e( 'Learn all about jazz!', 'blue-note' ); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:buttons -->
@@ -48,9 +48,13 @@
 
 		<!-- wp:query-no-results -->
 			<!-- wp:heading -->
-			<h2 class="wp-block-heading"><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.','blue-note' ); ?></h2>
+			<h2 class="wp-block-heading"><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'blue-note' ); ?></h2>
 			<!-- /wp:heading -->
-			<!-- wp:search {"label":"Search","showLabel":false,"width":75,"widthUnit":"%","buttonText":"Search"} /-->
+			<!-- wp:group {"layout":{"type":"constrained","contentSize":"75%","justifyContent":"left"}} -->
+			<div class="wp-block-group">
+			<!-- wp:pattern {"slug":"blue-note/search-form"} /-->
+			</div>
+			<!-- /wp:group -->
 		<!-- /wp:query-no-results -->
 	</div>
 	<!-- /wp:query -->

@@ -36,9 +36,13 @@
 
 	<!-- wp:query-no-results -->
 		<!-- wp:heading -->
-		<h2 class="wp-block-heading"><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.','blue-note' ); ?></h2>
+		<h2 class="wp-block-heading"><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'blue-note' ); ?></h2>
 		<!-- /wp:heading -->
-		<!-- wp:search {"label":"Search","showLabel":false,"width":75,"widthUnit":"%","buttonText":"Search"} /-->
+		<!-- wp:group {"layout":{"type":"constrained","contentSize":"75%","justifyContent":"left"}} -->
+		<div class="wp-block-group">
+		<!-- wp:pattern {"slug":"blue-note/search-form"} /-->
+		</div>
+		<!-- /wp:group -->
 	<!-- /wp:query-no-results -->
 </div>
 <!-- /wp:query -->
