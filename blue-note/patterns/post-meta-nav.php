@@ -5,8 +5,8 @@
  * Categories: text
  */
 ?>
-<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","flexWrap":"nowrap"},"fontSize":"medium"} -->
-<div class="wp-block-group has-medium-font-size">
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group">
 	<!-- wp:paragraph -->
 	<p><?php esc_html_e( 'Author:', 'blue-note' ); ?> </p>
 	<!-- /wp:paragraph -->
@@ -24,8 +24,8 @@
 </div>
 <!-- /wp:group -->
 
-<!-- wp:columns {"fontSize":"medium"} -->
-<div class="wp-block-columns has-medium-font-size">
+<!-- wp:columns -->
+<div class="wp-block-columns">
 	<!-- wp:column -->
 	<div class="wp-block-column">
 		<!-- wp:separator -->
@@ -41,7 +41,7 @@
 		<hr class="wp-block-separator has-alpha-channel-opacity"/>
 		<!-- /wp:separator -->
 		<!-- wp:post-navigation-link {"textAlign":"right","label":"<em><?php esc_html_e( 'Next', 'blue-note' ); ?></em>","linkLabel":true,"arrow":"arrow"} /-->
-		<!-- wp:post-navigation-link {"textAlign":"right","label":"","showTitle":true,"linkLabel":true,"style":{"typography":{"textTransform":"uppercase"}}} /-->
+		<!-- wp:post-navigation-link {"textAlign":"right","label":"","showTitle":true,"style":{"typography":{"textTransform":"uppercase"}}} /-->
 	</div>
 	<!-- /wp:column -->
 </div>
