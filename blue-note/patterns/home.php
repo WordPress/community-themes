@@ -28,3 +28,37 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns --></main>
 <!-- /wp:group -->
+
+<!-- wp:group {"tagName":"main","layout":{"type":"constrained","justifyContent":"center"}} -->
+<main class="wp-block-group">
+
+	<!-- wp:heading {"align":"wide"} -->
+	<h2 class="wp-block-heading alignwide"><?php esc_html_e( 'Latest Posts', 'blue-note' ); ?></h2>
+	<!-- /wp:heading -->
+
+	<!-- wp:query {"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"displayLayout":{"type":"flex","columns":3},"align":"wide","className":"is-style-blue-note-query-slant","layout":{"type":"default"}} -->
+	<div class="wp-block-query alignwide is-style-blue-note-query-slant">
+		<!-- wp:post-template -->
+			<!-- wp:post-featured-image /-->
+
+			<!-- wp:post-title {"isLink":true} /-->
+
+			<!-- wp:post-date /-->
+		<!-- /wp:post-template -->
+
+		<!-- wp:query-no-results -->
+			<!-- wp:heading -->
+			<h2 class="wp-block-heading"><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.','blue-note' ); ?></h2>
+			<!-- /wp:heading -->
+			<!-- wp:search {"label":"Search","showLabel":false,"width":75,"widthUnit":"%","buttonText":"Search"} /-->
+		<!-- /wp:query-no-results -->
+	</div>
+	<!-- /wp:query -->
+
+	<!-- wp:spacer -->
+	<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+	<!-- /wp:spacer -->
+
+</main>
+<!-- /wp:group -->
+
