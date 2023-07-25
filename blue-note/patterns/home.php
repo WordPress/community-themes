@@ -11,7 +11,7 @@
 <main class="wp-block-group" style="margin-top:100px"><!-- wp:columns {"verticalAlignment":null,"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"verticalAlignment":"top","width":"65%","style":{"spacing":{"blockGap":"56px"}}} -->
 <div class="wp-block-column is-vertically-aligned-top" style="flex-basis:65%"><!-- wp:heading {"level":1,"style":{"typography":{"fontSize":"180px","fontStyle":"normal","fontWeight":"400","lineHeight":"1.10","letterSpacing":"-0.03em"}},"fontFamily":"old-standard-tt"} -->
-<h1 class="wp-block-heading has-old-standard-tt-font-family" style="font-size:180px;font-style:normal;font-weight:400;letter-spacing:-0.03em;line-height:1.10">Learn all about jazz!</h1>
+<h1 class="wp-block-heading has-old-standard-tt-font-family" style="font-size:180px;font-style:normal;font-weight:400;letter-spacing:-0.03em;line-height:1.10"><?php esc_html_e( 'Learn all about jazz!' , 'blue-note' ); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:buttons -->
