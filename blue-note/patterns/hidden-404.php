@@ -3,6 +3,7 @@
  * Title: Hidden 404
  * Slug: blue-note/hidden-404
  * Categories: uncategorized
+ * Inserter: no
  */
 ?>
 <!-- wp:group {"tagName":"main","layout":{"type":"constrained","justifyContent":"left","contentSize":"1320px"}} -->
