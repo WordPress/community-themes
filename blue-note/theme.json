@@ -295,7 +295,13 @@
 						}
 					}
 				}
-			}
+			},
+			"core/search": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--old-standard-tt)",
+					"fontSize": "var(--wp--preset--font-size--normal)"
+				}
+			}	
 		},
 		"color": {
 			"background": "var(--wp--preset--color--base)",

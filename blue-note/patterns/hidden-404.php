@@ -7,8 +7,9 @@
  */
 ?>
 <!-- wp:group {"tagName":"main","layout":{"type":"constrained","justifyContent":"left","contentSize":"1320px"}} -->
-<main class="wp-block-group"><!-- wp:heading {"level":1} -->
-<h1 class="wp-block-heading"><?php esc_html_e( 'This page could not be found', 'blue-note' ); ?></h1>
+<main class="wp-block-group">
+<!-- wp:heading {"level":1,"style":{"spacing":{"margin":{"top":"6.25rem"}}}} -->
+<h1 class="wp-block-heading" style="margin-top:6.25rem"><?php esc_html_e( 'This page could not be found', 'blue-note' ); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"bottom":"60px","top":"59px"}}},"layout":{"type":"constrained","contentSize":"650px"}} -->
