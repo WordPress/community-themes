@@ -5,8 +5,8 @@
  * Categories: text button
  */
 ?>
-<!-- wp:image {"aspectRatio":"16/9","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":"var:preset|duotone|black-orange"}},"className":"is-style-blue-note-thick-stripes"} -->
-<figure class="wp-block-image size-full is-style-blue-note-thick-stripes"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/Cab_Calloway_Gottlieb.jpg" alt="" style="aspect-ratio:16/9;object-fit:cover"/></figure>
+<!-- wp:image {"width":847,"aspectRatio":"16/9","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":"var:preset|duotone|black-orange"}},"className":"is-style-blue-note-thick-stripes"} -->
+<figure class="wp-block-image size-full is-resized is-style-blue-note-thick-stripes"><img src="http://wp-src.test/wp-content/themes/community-themes/blue-note/assets/images/Cab_Calloway_Gottlieb.jpg" alt="" style="aspect-ratio:16/9;object-fit:cover;width:847px" width="847"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.2"}},"fontSize":"huge"} -->
