@@ -22,6 +22,14 @@ function blue_note_register_block_styles() {
 				'inline_style' => '.is-style-blue-note-slant-left{ transform: rotate(-2deg); }',
 			)
 		);
+		register_block_style(
+			'core/' . $block,
+			array(
+				'name'         => 'blue-note-thin-stripes',
+				'label'        => __( 'Thin Stripes', 'blue-note' ),
+				'inline_style' => '.is-style-blue-note-thin-stripes{ clip-path: url('. esc_url( get_stylesheet_directory_uri() ) .'/assets/images/thin-stripes.svg#blue-note-thin-stripes); }',
+			)
+		);
 	}
 
 	register_block_style(
