@@ -281,6 +281,20 @@
 					"fontSize": "var(--wp--preset--font-size--normal)",
 					"lineHeight": "1.6"
 				}
+			},
+			"core/quote": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--extra-large)",
+					"lineHeight": "1.2"
+				},
+				"elements": {
+					"cite": {
+						"typography": {
+							"fontSize": "var(--wp--preset--font-size--normal)",
+							"lineHeight": "1.6"
+						}
+					}
+				}
 			}
 		},
 		"color": {
