@@ -6,10 +6,10 @@
  * Inserter: no
  */
 ?>
-<!-- wp:group {"tagName":"main","layout":{"type":"constrained","justifyContent":"left","contentSize":"1320px"}} -->
+<!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
 <main class="wp-block-group">
-<!-- wp:heading {"level":1,"style":{"spacing":{"margin":{"top":"6.25rem"}}}} -->
-<h1 class="wp-block-heading" style="margin-top:6.25rem"><?php esc_html_e( 'This page could not be found', 'blue-note' ); ?></h1>
+<!-- wp:heading {"level":1,"align":"full","style":{"spacing":{"margin":{"top":"6.25rem"},"padding":{"right":"var:preset|spacing|60","left":"var:preset|spacing|60"}}}} -->
+<h1 class="wp-block-heading alignfull" style="margin-top:6.25rem;padding-right:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)">This page could not be found</h1>
 <!-- /wp:heading -->
 
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"bottom":"60px","top":"59px"}}},"layout":{"type":"constrained","contentSize":"650px"}} -->
