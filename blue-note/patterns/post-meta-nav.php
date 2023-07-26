@@ -41,7 +41,7 @@
 		<hr class="wp-block-separator has-alpha-channel-opacity"/>
 		<!-- /wp:separator -->
 		<!-- wp:post-navigation-link {"textAlign":"right","label":"<em><?php esc_html_e( 'Next', 'blue-note' ); ?></em>","linkLabel":true,"arrow":"arrow"} /-->
-		<!-- wp:post-navigation-link {"textAlign":"right","label":"","showTitle":true,"linkLabel":true,"style":{"typography":{"textTransform":"uppercase"}}} /-->
+		<!-- wp:post-navigation-link {"textAlign":"right","label":"","showTitle":true,"style":{"typography":{"textTransform":"uppercase"}}} /-->
 	</div>
 	<!-- /wp:column -->
 </div>
