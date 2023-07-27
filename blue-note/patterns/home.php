@@ -39,7 +39,7 @@
 	<!-- wp:query {"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"displayLayout":{"type":"flex","columns":3},"align":"wide","className":"is-style-blue-note-query-slant","layout":{"type":"default"}} -->
 	<div class="wp-block-query alignwide is-style-blue-note-query-slant">
 		<!-- wp:post-template -->
-			<!-- wp:post-featured-image /-->
+			<!-- wp:post-featured-image {"isLink":true} /-->
 
 			<!-- wp:post-title {"isLink":true} /-->
 
