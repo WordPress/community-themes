@@ -10,7 +10,7 @@
 <div class="wp-block-group is-style-blue-note-blue-quote has-contrast-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)"><!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|70"}}}} -->
 <div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"33.3%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:33.3%"><!-- wp:image {"id":10,"sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":["#000000","rgb(75, 153, 248)"]},"border":{"color":"#4b99f8","width":"2px"}}} -->
-<figure class="wp-block-image size-full has-custom-border"><img src="http://wp-build.test/wp-content/themes/community-themes/blue-note/assets/images/Louis_Armstrong.jpg" alt="" class="has-border-color wp-image-10" style="border-color:#4b99f8;border-width:2px"/></figure>
+<figure class="wp-block-image size-full has-custom-border"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/Louis_Armstrong.jpg" alt="" class="has-border-color wp-image-10" style="border-color:#4b99f8;border-width:2px"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
