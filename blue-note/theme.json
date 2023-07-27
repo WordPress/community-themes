@@ -340,6 +340,20 @@
 							"typography": {
 								"textDecoration": "underline"
 							}
+            }
+          }
+        }
+      },
+			"core/quote": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--extra-large)",
+					"lineHeight": "1.2"
+				},
+				"elements": {
+					"cite": {
+						"typography": {
+							"fontSize": "var(--wp--preset--font-size--normal)",
+							"lineHeight": "1.6"
 						}
 					}
 				}
@@ -384,7 +398,13 @@
 						"right": "0"
 					}
 				}
-			}
+			},
+			"core/search": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--old-standard-tt)",
+					"fontSize": "var(--wp--preset--font-size--normal)"
+				}
+			}	
 		},
 		"color": {
 			"background": "var(--wp--preset--color--base)",
