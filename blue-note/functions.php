@@ -61,7 +61,7 @@ function blue_note_register_block_styles() {
 		array(
 			'name'         => 'blue-note-blue-quote',
 			'label'        => __( 'Blue Quote', 'blue-note' ),
-			'inline_style' => '.is-style-blue-note-blue-quote blockquote { margin: 0; } .is-style-blue-note-blue-quote p { display: inline; } .wp-block-quote.is-style-blue-note-blue-quote cite { display: inline; font-style: inherit; text-transform: inherit; font-weight: inherit; font-size: inherit; line-height: inherit; }',
+			'inline_style' => '.is-style-blue-note-blue-quote blockquote { margin: 0; } .is-style-blue-note-blue-quote p { display: inline; } .wp-block-quote.is-style-blue-note-blue-quote cite { display: inline !important; font-style: inherit; text-transform: inherit !important; font-weight: inherit !important; font-size: inherit !important; line-height: inherit !important; }',
 		)
 	);
 }
