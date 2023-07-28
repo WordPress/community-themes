@@ -17,6 +17,7 @@ Tags: custom-colors, custom-logo, custom-menu, editor-style, featured-images, bl
 /*
 Kim Clow's suggested CSS for the 404 page. Refer to issue #12 in the repo for details.
 */
+.search .wp-block-search .wp-block-search__input,
 .error404 .wp-block-search .wp-block-search__input {
 	background: transparent;
 	height: 77px;
