@@ -301,6 +301,15 @@
 					}
 				}
 			},
+			"core/post-navigation-link":{
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "none"
+						}
+					}
+				}
+			},
 			"core/query-pagination": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--medium)"
@@ -322,6 +331,17 @@
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--normal)",
 					"lineHeight": "1.6"
+				}
+			},
+			"core/separator": {
+				"border": {
+					"color": "currentColor",
+					"style": "solid",
+					"width": "0 0 1px 0"
+				},
+				"color": {
+					"background": "var(--wp--preset--color--contrast)",
+					"text": "var(--wp--preset--color--contrast)"
 				}
 			},
 			"core/latest-posts": {
