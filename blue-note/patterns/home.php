@@ -34,16 +34,25 @@
 		<!-- wp:query-pagination-next {"label":"<?php esc_html_e( 'See Posts','blue-note' ); ?>","className":"wp-element-button","fontSize":"normal"} /-->
 		<!-- /wp:query-pagination -->
 
-		<!-- wp:heading {"align":"wide","style":{"spacing":{"margin":{"top":"6.25rem"}}}} -->
-		<h2 class="wp-block-heading alignwide" style="margin-top:6.25rem"><?php esc_html_e( 'Latest Posts','blue-note' ); ?></h2>
+		<!-- wp:heading {"align":"wide","style":{"spacing":{"margin":{"top":"6.25rem","bottom":"var:preset|spacing|60"}}},"fontSize":"extra-large"} -->
+		<h2 class="wp-block-heading alignwide has-extra-large-font-size" style="margin-top:6.25rem;margin-bottom:var(--wp--preset--spacing--60)"><?php esc_html_e( 'Latest Posts','blue-note' ); ?></h2>
 		<!-- /wp:heading -->
 
-		<!-- wp:post-template -->
-			<!-- wp:post-featured-image {"isLink":true} /-->
+		<!-- wp:post-template {"className":"has-stacked-featured-images"} -->
+			<!-- wp:group {"className":"blue-note-stacked-featured-images","layout":{"type":"constrained"}} -->
+			<div class="wp-block-group blue-note-stacked-featured-images">
+				<!-- wp:post-featured-image {"isLink":true,"style":{"color":{"duotone":"var:preset|duotone|black-pink"},"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0","left":"0","right":"0"}}}} /-->
+				<!-- wp:post-featured-image {"isLink":true,"style":{"color":{"duotone":"var:preset|duotone|black-blue"},"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0","left":"0","right":"0"}}}} /-->
+				<!-- wp:post-featured-image {"isLink":true,"style":{"color":{"duotone":"var:preset|duotone|black-green"},"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0","left":"0","right":"0"}}}} /-->
+			</div>
+			<!-- /wp:group -->
 
-			<!-- wp:post-title {"isLink":true} /-->
+			<!-- wp:post-title {"isLink":true,"style":{"typography":{"lineHeight":"1.1"},"spacing":{"margin":{"bottom":"var:preset|spacing|30","top":"var:preset|spacing|60"}}},"fontSize":"xx-large"} /-->
 
 			<!-- wp:post-date /-->
+			<!-- wp:spacer {"height":"var:preset|spacing|60"} -->
+			<div style="height:var(--wp--preset--spacing--60)" aria-hidden="true" class="wp-block-spacer"></div>
+			<!-- /wp:spacer -->
 		<!-- /wp:post-template -->
 
 		<!-- wp:query-no-results -->
