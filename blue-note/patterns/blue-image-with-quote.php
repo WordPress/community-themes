@@ -2,7 +2,7 @@
 /**
  * Title: Blue Image with Quote
  * Slug: blue-note/blue-quote
- * Categories: image text
+ * Categories: text
  * Block Types: core/quote
  */
 ?>
