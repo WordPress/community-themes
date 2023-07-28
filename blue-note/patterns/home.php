@@ -13,12 +13,7 @@
 <div class="wp-block-column is-vertically-aligned-top" style="flex-basis:65%"><!-- wp:heading {"level":1,"style":{"typography":{"fontSize":"180px","fontStyle":"normal","fontWeight":"400","lineHeight":"1.10","letterSpacing":"-0.03em"}},"fontFamily":"old-standard-tt"} -->
 <h1 class="wp-block-heading has-old-standard-tt-font-family" style="font-size:180px;font-style:normal;font-weight:400;letter-spacing:-0.03em;line-height:1.10"><?php esc_html_e( 'Learn all about jazz!' , 'blue-note' ); ?></h1>
 <!-- /wp:heading -->
-
-<!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"contrast"} -->
-<div class="wp-block-button"><a class="wp-block-button__link has-contrast-background-color has-background wp-element-button">See Posts</a></div>
-<!-- /wp:button --></div>
-<!-- /wp:buttons --></div>
+</div>
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"top","width":"35%","style":{"spacing":{"padding":{"top":"32px"}}}} -->
@@ -32,12 +27,17 @@
 <!-- wp:group {"tagName":"main","layout":{"type":"constrained","justifyContent":"center"}} -->
 <main class="wp-block-group">
 
-	<!-- wp:heading {"align":"wide"} -->
-	<h2 class="wp-block-heading alignwide"><?php esc_html_e( 'Latest Posts', 'blue-note' ); ?></h2>
-	<!-- /wp:heading -->
-
 	<!-- wp:query {"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"displayLayout":{"type":"flex","columns":3},"align":"wide","className":"is-style-blue-note-query-slant","layout":{"type":"default"}} -->
 	<div class="wp-block-query alignwide is-style-blue-note-query-slant">
+
+		<!-- wp:query-pagination -->
+		<!-- wp:query-pagination-next {"label":"<?php esc_html_e( 'See Posts','blue-note' ); ?>","className":"wp-element-button","fontSize":"normal"} /-->
+		<!-- /wp:query-pagination -->
+
+		<!-- wp:heading {"align":"wide","style":{"spacing":{"margin":{"top":"6.25rem"}}}} -->
+		<h2 class="wp-block-heading alignwide" style="margin-top:6.25rem"><?php esc_html_e( 'Latest Posts','blue-note' ); ?></h2>
+		<!-- /wp:heading -->
+
 		<!-- wp:post-template -->
 			<!-- wp:post-featured-image {"isLink":true} /-->
 
