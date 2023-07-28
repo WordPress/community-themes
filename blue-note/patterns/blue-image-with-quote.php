@@ -17,8 +17,8 @@
 <!-- wp:column {"verticalAlignment":"center","width":"66.6%","style":{"spacing":{"padding":{"right":"0","left":"0"},"blockGap":"0"}},"layout":{"type":"default"}} -->
 <div class="wp-block-column is-vertically-aligned-center" style="padding-right:0;padding-left:0;flex-basis:66.6%"><!-- wp:quote {"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}},"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"300"}},"textColor":"white","className":"is-style-blue-note-blue-quote","fontSize":"large"} -->
 <blockquote class="wp-block-quote is-style-blue-note-blue-quote has-white-color has-text-color has-link-color has-large-font-size" style="font-style:normal;font-weight:300;text-transform:uppercase"><!-- wp:paragraph {"style":{"color":{"text":"#4b99f8"},"spacing":{"margin":{"top":"0","bottom":"0","left":"0","right":"0"},"padding":{"right":"0","left":"0"}}}} -->
-<p class="has-text-color" style="color:#4b99f8;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-right:0;padding-left:0">“Every time I close my eyes blowing that trumpet of mine—I look right in the heart of good old New Orleans… It has given me something to live for"</p>
-<!-- /wp:paragraph --><cite>Louis Armstrong</cite></blockquote>
+<p class="has-text-color" style="color:#4b99f8;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-right:0;padding-left:0"><?php esc_html_e('“Every time I close my eyes blowing that trumpet of mine—I look right in the heart of good old New Orleans… It has given me something to live for"', 'blue-note' );?></p>
+<!-- /wp:paragraph --><cite><?php esc_html_e( 'Louis Armstrong', 'blue-note' );?></cite></blockquote>
 <!-- /wp:quote --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
