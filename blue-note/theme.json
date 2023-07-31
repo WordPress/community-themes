@@ -106,6 +106,46 @@
 				"rem",
 				"vh",
 				"vw"
+			],
+			"spacingScale": {
+				"steps": 7
+			},
+			"spacingSizes": [
+				{
+					"size": "min(40px, 6vw)",
+					"slug": "40",
+					"name": "4"
+				},
+				{
+					"size": "min(50px, 10vw)",
+					"slug": "50",
+					"name": "5"
+				},
+				{
+					"size": "min(60px, 12vw)",
+					"slug": "60",
+					"name": "6"
+				},
+				{
+					"size": "min(70px, 14vw)",
+					"slug": "70",
+					"name": "7"
+				},
+				{
+					"size": "min(80px, 16vw)",
+					"slug": "80",
+					"name": "8"
+				},
+				{
+					"size": "min(90px, 18vw)",
+					"slug": "90",
+					"name": "9"
+				},
+				{
+					"size": "min(100px, 20vw)",
+					"slug": "100",
+					"name": "10"
+				}
 			]
 		},
 		"typography": {
@@ -404,7 +444,7 @@
 					"fontFamily": "var(--wp--preset--font-family--old-standard-tt)",
 					"fontSize": "var(--wp--preset--font-size--normal)"
 				}
-			}	
+			}
 		},
 		"color": {
 			"background": "var(--wp--preset--color--base)",
