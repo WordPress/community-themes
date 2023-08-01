@@ -10,8 +10,8 @@
 				},
 				{
 					"color": "#1da1f2",
-					"name": "Twitter blue",
-					"slug": "custom-twitter-blue"
+					"name": "Theme blue",
+					"slug": "theme-blue"
 				},
 				{
 					"color": "#000035",
@@ -69,7 +69,7 @@
 		"blocks": {
 			"core/button": {
 				"color": {
-					"background": "var(--wp--preset--color--custom-twitter-blue)",
+					"background": "var(--wp--preset--color--theme-blue)",
 					"text": "var(--wp--preset--color--custom-gray-lightest)"
 				},
 				"elements": {
@@ -86,19 +86,19 @@
 					"outline": {
 						"border": {
 							"bottom": {
-								"color": "var(--wp--preset--color--custom-twitter-blue)",
+								"color": "var(--wp--preset--color--theme-blue)",
 								"style": "solid"
 							},
 							"left": {
-								"color": "var(--wp--preset--color--custom-twitter-blue)",
+								"color": "var(--wp--preset--color--theme-blue)",
 								"style": "solid"
 							},
 							"right": {
-								"color": "var(--wp--preset--color--custom-twitter-blue)",
+								"color": "var(--wp--preset--color--theme-blue)",
 								"style": "solid"
 							},
 							"top": {
-								"color": "var(--wp--preset--color--custom-twitter-blue)",
+								"color": "var(--wp--preset--color--theme-blue)",
 								"style": "solid"
 							}
 						},
@@ -188,7 +188,7 @@
 					}
 				},
 				"color": {
-					"text": "var(--wp--preset--color--custom-twitter-blue)"
+					"text": "var(--wp--preset--color--theme-blue)"
 				},
 				"typography": {
 					"textDecoration": "none"
