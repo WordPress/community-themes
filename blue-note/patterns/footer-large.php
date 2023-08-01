@@ -17,12 +17,14 @@
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group"><!-- wp:group -->
+
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"bottom"}} -->
+<div class="wp-block-group">
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}}} -->
 <div class="wp-block-group"><!-- wp:site-title {"level":0} /-->
 
-<!-- wp:paragraph -->
-<p><?php esc_html_e( 'Built with WordPress', 'blue-note' ); ?></p>
+<!-- wp:paragraph {"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|20"}}},"fontSize":"extra-small"} -->
+<p class="has-extra-small-font-size" style="padding-bottom:var(--wp--preset--spacing--20)"><?php esc_html_e( 'Built with WordPress', 'blue-note' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
