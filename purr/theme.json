@@ -163,9 +163,9 @@
 			}
 		},
 		"color": {
+			"background": "var(--wp--preset--color--white)",
 			"text": "var(--wp--preset--color--custom-dark-blue)"
 		},
-		"css": "",
 		"elements": {
 			"caption": {
 				"color": {
