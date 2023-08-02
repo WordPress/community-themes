@@ -3,6 +3,7 @@
  * Title: Hidden comments
  * Slug: blue-note/hidden-comments
  * Categories: uncategorized
+ * Inserter: no
  */
 ?>
 <!-- wp:comments -->
@@ -28,11 +29,8 @@
 <!-- /wp:spacer -->
 <!-- /wp:comment-template -->
 
-<!-- wp:comments-pagination {"paginationArrow":"arrow"} -->
+<!-- wp:comments-pagination {"paginationArrow":"arrow","layout":{"type":"flex","justifyContent":"space-between"}} -->
 <!-- wp:comments-pagination-previous /-->
-
-<!-- wp:comments-pagination-numbers /-->
-
 <!-- wp:comments-pagination-next /-->
 <!-- /wp:comments-pagination --></div>
 <!-- /wp:group --></div>
