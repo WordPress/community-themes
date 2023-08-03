@@ -12,9 +12,9 @@
 	<!-- wp:post-template {"layout":{"type":"constrained"}} -->
 		<!-- wp:group {"className":"blue-note-stacked-featured-images"} -->
 		<div class="wp-block-group blue-note-stacked-featured-images">
-			<!-- wp:post-featured-image {"isLink":true,"style":{"color":{"duotone":"var:preset|duotone|black-pink"},"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0","left":"0","right":"0"}}}} /-->
-			<!-- wp:post-featured-image {"isLink":true,"style":{"color":{"duotone":"var:preset|duotone|black-blue"},"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0","left":"0","right":"0"}}}} /-->
-			<!-- wp:post-featured-image {"isLink":true,"style":{"color":{"duotone":"var:preset|duotone|black-green"},"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0","left":"0","right":"0"}}}} /-->
+			<!-- wp:post-featured-image {"isLink":true,"aspectRatio":"16/9","style":{"color":{"duotone":"var:preset|duotone|black-pink"},"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0","left":"0","right":"0"}}}} /-->
+			<!-- wp:post-featured-image {"isLink":true,"aspectRatio":"16/9","style":{"color":{"duotone":"var:preset|duotone|black-blue"},"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0","left":"0","right":"0"}}}} /-->
+			<!-- wp:post-featured-image {"isLink":true,"aspectRatio":"16/9","style":{"color":{"duotone":"var:preset|duotone|black-green"},"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0","left":"0","right":"0"}}}} /-->
 		</div>
 		<!-- /wp:group -->
 
@@ -35,10 +35,9 @@
 	<!-- /wp:query-pagination -->
 
 	<!-- wp:query-no-results -->
-		<!-- wp:heading -->
-		<h2 class="wp-block-heading"><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.','blue-note' ); ?></h2>
-		<!-- /wp:heading -->
-		<!-- wp:search {"label":"Search","showLabel":false,"width":75,"widthUnit":"%","buttonText":"Search"} /-->
+	<!-- wp:paragraph -->
+	<p><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.','blue-note' ); ?></p>
+	<!-- /wp:paragraph -->
 	<!-- /wp:query-no-results -->
 </div>
 <!-- /wp:query -->
