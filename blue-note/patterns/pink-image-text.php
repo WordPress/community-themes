@@ -7,8 +7,8 @@
 ?>
 <!-- wp:columns {"verticalAlignment":"bottom","style":{"color":{"background":"#fd5370"},"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}}} -->
 <div class="wp-block-columns are-vertically-aligned-bottom has-background" style="background-color:#fd5370;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:column {"verticalAlignment":"bottom","width":"70%"} -->
-<div class="wp-block-column is-vertically-aligned-bottom" style="flex-basis:70%"><!-- wp:image {"id":179,"aspectRatio":"9/16","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":["#000000","#fd5370"]}},"className":"is-style-blue-note-rhomboid"} -->
-<figure class="wp-block-image size-full is-style-blue-note-rhomboid"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/Duke_Ellington.jpg" alt="" class="wp-image-179" style="aspect-ratio:9/16;object-fit:cover"/></figure>
+<div class="wp-block-column is-vertically-aligned-bottom" style="flex-basis:70%"><!-- wp:image {"id":179,"aspectRatio":"1/1","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":["#000000","#fd5370"]}},"className":"is-style-blue-note-rhomboid"} -->
+<figure class="wp-block-image size-full is-style-blue-note-rhomboid"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/Duke_Ellington.jpg" alt="" class="wp-image-179" style="aspect-ratio:1/1;object-fit:cover"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
