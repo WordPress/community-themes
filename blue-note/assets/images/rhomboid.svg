@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+	<defs>
+		<clipPath id="blue-note-rhomboid" clipPathUnits="objectBoundingBox">
+			<path d="M 0.188,0 L 1,0 L 0.8182,1 L 0,1 Z"/>
+		</clipPath>
+	</defs>
+</svg> 

@@ -38,6 +38,14 @@ function blue_note_register_block_styles() {
 				'inline_style' => '.is-style-blue-note-thick-stripes{ clip-path: url('. esc_url( get_stylesheet_directory_uri() ) .'/assets/images/thick-stripes.svg#blue-note-thick-stripes); }',
 			)
 		);
+		register_block_style(
+			'core/' . $block,
+			array(
+				'name'         => 'blue-note-rhomboid',
+				'label'        => __( 'Rhomboid', 'blue-note' ),
+				'inline_style' => '.is-style-blue-note-rhomboid{ clip-path: url('. esc_url( get_stylesheet_directory_uri() ) .'/assets/images/rhomboid.svg#blue-note-rhomboid); }',
+			)
+		);
 	}
 
 	register_block_style(
