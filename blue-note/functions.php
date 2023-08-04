@@ -27,7 +27,6 @@ function blue_note_register_block_styles() {
 			array(
 				'name'         => 'blue-note-thin-stripes',
 				'label'        => __( 'Thin Stripes', 'blue-note' ),
-				'inline_style' => '.is-style-blue-note-thin-stripes{ clip-path: url('. esc_url( get_stylesheet_directory_uri() ) .'/assets/images/thin-stripes.svg#blue-note-thin-stripes); }',
 			)
 		);
 		register_block_style(
@@ -36,6 +35,13 @@ function blue_note_register_block_styles() {
 				'name'         => 'blue-note-thick-stripes',
 				'label'        => __( 'Thick Stripes', 'blue-note' ),
 				'inline_style' => '.is-style-blue-note-thick-stripes{ clip-path: url('. esc_url( get_stylesheet_directory_uri() ) .'/assets/images/thick-stripes.svg#blue-note-thick-stripes); }',
+			)
+		);
+		register_block_style(
+			'core/' . $block,
+			array(
+				'name'         => 'blue-note-rhomboid',
+				'label'        => __( 'Rhomboid', 'blue-note' ),
 			)
 		);
 	}
