@@ -1,7 +1,7 @@
 === Blue Note ===
-Contributors: the WordPress team
-Requires at least: 6.1
-Tested up to: 6.2
+Contributors: wordpressdotorg
+Requires at least: 6.2
+Tested up to: 6.3
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -12,7 +12,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Changelog ==
 
-= 0.0.1 =
+= 1.0.0 =
 * Initial release
 
 == Copyright ==
