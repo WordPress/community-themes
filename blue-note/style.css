@@ -39,3 +39,19 @@ Kim Clow's suggested CSS for the 404 page. Refer to issue #12 in the repo for de
 .has-stacked-featured-images li:nth-child(3n+3) .blue-note-stacked-featured-images .wp-block-post-featured-image:nth-child(3){
 	z-index: 2;
 }
+
+/*
+Block styles css 
+*/
+
+.is-style-blue-note-rhomboid {
+	clip-path: polygon(18.8% 0%, 100% 0%, 81.82% 100%, 0% 100%);
+}
+
+.is-style-blue-note-thin-stripes {
+	clip-path: path("M0 170h45v600H0zM55 100h46v600H55zM111 130h45v600h-45zM166 80h46v600h-46zM221 170h46v600h-46zM277 110h46v600h-46zM333 120h46v600h-46zM388 90h46v600h-46zM443 80h46v600h-46zM499 110h46v600h-46zM555 110h46v600h-46zM610 30h46v600h-46zM665 50h46v600h-46zM721 10h46v600h-46zM776 60h46v600h-46zM832 50h46v600h-46zM887 30h46v600h-46zM943 20h46v600h-46zM998 50h46v600h-46zM1053 70h46v600h-46zM1109 20h46v600h-46zM1164 30h46v600h-46zM1220 0h46v600h-46zM1276 10h46v600h-46z");
+}
+
+.is-style-blue-note-thick-stripes { 
+	clip-path: path("M630.75 10.053 342.856 0l-14.335 410.488 287.894 10.053L630.75 10.053Zm315.102 33.365H630.804v393.177h315.048v-22.619l176.978 3.089 7.07-405.25L952.574 8.72l-6.722 385.12V43.418ZM194.44 12.238l128.405-2.241 6.397 366.511-128.405 2.242-5.113-292.924-23.735 339.423L0 413.223 26.186 38.747 195.108 50.56l-.668-38.321ZM1306.97 47.84l-177.25 6.19 13.03 373.21 177.25-6.189-13.03-373.211Z");
+}
