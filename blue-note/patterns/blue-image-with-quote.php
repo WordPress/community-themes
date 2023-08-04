@@ -1,29 +1,25 @@
 <?php
 /**
- * Title: Black Image with Text
- * Slug: blue-note/black-image-text
+ * Title: Blue Image with Quote
+ * Slug: blue-note/blue-quote
  * Categories: text
  * Block Types: core/quote
  */
 ?>
-<!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"0px","left":"0px"},"padding":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}},"backgroundColor":"base"} -->
-<div class="wp-block-columns has-base-background-color has-background" style="padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px"><!-- wp:column {"verticalAlignment":"bottom"} -->
-<div class="wp-block-column is-vertically-aligned-bottom"><!-- wp:cover {"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/Ethel-Waters.jpg","id":1888,"dimRatio":0,"minHeightUnit":"vh","contentPosition":"center center","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","right":"1em","left":"1em"}}},"layout":{"type":"constrained","contentSize":"100%"}} -->
-<div class="wp-block-cover" style="padding-top:var(--wp--preset--spacing--80);padding-right:1em;padding-bottom:var(--wp--preset--spacing--80);padding-left:1em"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-1888" alt="" src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/Ethel-Waters.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"style":{"dimensions":{"minHeight":""}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:spacer {"height":"500px"} -->
-<div style="height:500px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-
-<!-- wp:heading {"textAlign":"center","style":{"typography":{"textTransform":"uppercase"},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base","fontSize":"huge"} -->
-<h2 class="wp-block-heading has-text-align-center has-base-color has-text-color has-link-color has-huge-font-size" style="text-transform:uppercase"><?php esc_html_e( "Ethel", 'blue-note' ); ?></h2>
-<!-- /wp:heading --></div>
-<!-- /wp:group --></div></div>
-<!-- /wp:cover --></div>
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60","right":"var:preset|spacing|60"}}},"backgroundColor":"contrast","className":"is-style-blue-note-blue-quote","layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-blue-note-blue-quote has-contrast-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)"><!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|70"}}}} -->
+<div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"33.3%"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:33.3%"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":["#000000","rgb(75, 153, 248)"]},"border":{"color":"#4b99f8","width":"2px"}}} -->
+<figure class="wp-block-image size-full has-custom-border"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/Louis_Armstrong.jpg" alt="" class="has-border-color" style="border-color:#4b99f8;border-width:2px"/></figure>
+<!-- /wp:image --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"verticalAlignment":"bottom","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","right":"1em","bottom":"var:preset|spacing|80","left":"1em"}}}} -->
-<div class="wp-block-column is-vertically-aligned-bottom" style="padding-top:var(--wp--preset--spacing--80);padding-right:1em;padding-bottom:var(--wp--preset--spacing--80);padding-left:1em"><!-- wp:heading {"textAlign":"center","style":{"typography":{"textTransform":"uppercase"}},"fontSize":"huge"} -->
-<h2 class="wp-block-heading has-text-align-center has-huge-font-size" style="text-transform:uppercase"><?php esc_html_e( "Waters", 'blue-note' ); ?></h2>
-<!-- /wp:heading --></div>
+<!-- wp:column {"verticalAlignment":"center","width":"66.6%","style":{"spacing":{"padding":{"right":"0","left":"0"},"blockGap":"0"}},"layout":{"type":"default"}} -->
+<div class="wp-block-column is-vertically-aligned-center" style="padding-right:0;padding-left:0;flex-basis:66.6%"><!-- wp:quote {"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}},"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"300"}},"textColor":"white","className":"is-style-blue-note-blue-quote","fontSize":"large"} -->
+<blockquote class="wp-block-quote is-style-blue-note-blue-quote has-white-color has-text-color has-link-color has-large-font-size" style="font-style:normal;font-weight:300;text-transform:uppercase"><!-- wp:paragraph {"style":{"color":{"text":"#4b99f8"},"spacing":{"margin":{"top":"0","bottom":"0","left":"0","right":"0"},"padding":{"right":"0","left":"0"}}}} -->
+<p class="has-text-color" style="color:#4b99f8;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-right:0;padding-left:0"><?php esc_html_e('“Every time I close my eyes blowing that trumpet of mine—I look right in the heart of good old New Orleans… It has given me something to live for"', 'blue-note' );?></p>
+<!-- /wp:paragraph --><cite><?php esc_html_e( 'Louis Armstrong', 'blue-note' );?></cite></blockquote>
+<!-- /wp:quote --></div>
 <!-- /wp:column --></div>
-<!-- /wp:columns -->
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
