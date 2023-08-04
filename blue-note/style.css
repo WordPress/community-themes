@@ -1,17 +1,17 @@
 /*
 Theme Name: Blue Note
 Theme URI: https://github.com/WordPress/community-themes/tree/trunk/blue-note
-Author: the WordPress team
-Author URI: https://wordpress.org
+Author: wordpressdotorg
+Author URI: https://wordpress.org/themes/author/wordpressdotorg/
 Description:
 Requires at least: 6.1
-Tested up to: 6.2
+Tested up to: 6.3
 Requires PHP: 7.4
-Version: 0.0.1
+Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: blue-note
-Tags: custom-colors, custom-logo, custom-menu, editor-style, featured-images, blog, block-patterns, one-column, two-columns, three-columns, four-columns, rtl-language-support, threaded-comments, translation-ready, wide-blocks, full-site-editing
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, blog, portfolio
 */
 
 /*
@@ -37,6 +37,6 @@ Kim Clow's suggested CSS for the 404 page. Refer to issue #12 in the repo for de
 
 .has-stacked-featured-images li:nth-child(3n+1) .blue-note-stacked-featured-images .wp-block-post-featured-image:nth-child(1),
 .has-stacked-featured-images li:nth-child(3n+2) .blue-note-stacked-featured-images .wp-block-post-featured-image:nth-child(2),
-.has-stacked-featured-images li:nth-child(3n+3) .blue-note-stacked-featured-images .wp-block-post-featured-image:nth-child(3){
+.has-stacked-featured-images li:nth-child(3n+3) .blue-note-stacked-featured-images .wp-block-post-featured-image:nth-child(3) {
 	z-index: 2;
 }
