@@ -1,6 +1,6 @@
 === Blue Note ===
 Contributors: wordpressdotorg
-Requires at least: 6.2
+Requires at least: 6.1
 Tested up to: 6.3
 Requires PHP: 7.4
 License: GPLv2 or later
@@ -29,3 +29,9 @@ This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
+
+= Assets =
+
+Google Font Old Standard TT: https://fonts.google.com/specimen/Old+Standard+TT
+License: SIL Open Font License, 1.1
+License URL: https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
