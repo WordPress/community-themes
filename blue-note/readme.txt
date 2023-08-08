@@ -29,3 +29,7 @@ This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
+
+Old Standard TT 
+Licensed under SIL Open Font License, 1.1 (http://scripts.sil.org/OFL)
+Source: https://fonts.google.com/specimen/Old+Standard+TT
