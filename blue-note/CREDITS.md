@@ -15,3 +15,7 @@
 - [RobVanMaatwerkOnline](https://github.com/RobVanMaatwerkOnline)
 - [vaibhavagar](https://github.com/vaibhavagar)
 - [Mooore](https://github.com/Mooore)
+- [ajlende](https://github.com/ajlende)
+- [jeryj](https://github.com/jeryj)
+- [getdave](https://github.com/getdave)
+- [draganescu](https://github.com/draganescu)
