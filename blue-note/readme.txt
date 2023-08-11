@@ -11,6 +11,9 @@ Blue Note is an elegant and fun block theme inspired by jazz and the record labe
 
 == Changelog ==
 
+= 1.0.1 =
+* Updated screenshot file
+
 = 1.0.0 =
 * Initial release
 
