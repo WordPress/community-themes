@@ -48,6 +48,11 @@
 					"gradient": "linear-gradient(141deg, #289389, #5dd7b9 71%, #8cdab4)",
 					"name": "Tertiary",
 					"slug": "tertiary"
+				},
+				{
+					"gradient": "linear-gradient(180deg,var(--wp--preset--color--base) 0%,var(--wp--preset--color--base) 50%,var(--wp--preset--color--contrast) 50%,var(--wp--preset--color--contrast) 100%)",
+					"name": "Base/Contrast",
+					"slug": "base-contrast"
 				}
 			],
 			"palette": [
@@ -173,7 +178,7 @@
 			"core/post-title": {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--dm-sans)",
-					"fontSize": "5rem"
+					"fontSize": "var(--wp--preset--font-size--x-large)"
 				}
 			},
 			"core/pullquote": {
