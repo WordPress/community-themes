@@ -21,7 +21,7 @@
 					"colors": ["#002635", "#5dd7b9"],
 					"name": "Tertiary",
 					"slug": "tertiary"
-				}
+				}	
 			],
 			"gradients": [
 				{
@@ -75,6 +75,11 @@
 					"color": "#5dd7b9",
 					"name": "Tertiary",
 					"slug": "tertiary"
+				},
+				{
+					"color": "#1c7590",
+					"name": "Accent",
+					"slug": "accent"
 				}
 			]
 		},
@@ -279,6 +284,11 @@
 			"heading": {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--dm-sans)"
+				}
+			},
+			"link": {
+				"color": {
+					"text": "var(--wp--preset--color--accent)"
 				}
 			}
 		},
