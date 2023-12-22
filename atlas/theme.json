@@ -83,6 +83,43 @@
 				}
 			]
 		},
+		"spacing": {
+			"spacingScale": {
+				"steps": 0
+			},
+			"spacingSizes": [
+				{
+					"size": "clamp(0rem, 1vw, 0.5rem)",
+					"slug": "10",
+					"name": "1"
+				},
+				{
+					"size": "clamp(0.5rem, 3vw, 1rem)",
+					"slug": "20",
+					"name": "2"
+				},
+				{
+					"size": "clamp(1.5rem, 5vw, 2rem)",
+					"slug": "30",
+					"name": "3"
+				},
+				{
+					"size": "clamp(1.8rem, 1.8rem + ((1vw - 0.48rem) * 2.885), 3rem)",
+					"slug": "40",
+					"name": "4"
+				},
+				{
+					"size": "clamp(2.5rem, 8vw, 4.5rem)",
+					"slug": "50",
+					"name": "5"
+				},
+				{
+					"size": "clamp(3.75rem, 10vw, 7rem)",
+					"slug": "60",
+					"name": "6"
+				}
+			]
+		},
 		"typography": {
 			"fluid": false,
 			"fontSizes": [
@@ -115,26 +152,6 @@
 	},
 	"styles": {
 		"blocks": {
-			"core/navigation-link": {
-				"elements": {
-					"link": {
-						":hover": {
-							"typography": {
-								"textDecoration": "none"
-							}
-						},
-						":focus": {
-							"typography": {
-								"textDecoration": "none"
-							}
-						}
-					}
-				},
-				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--dm-sans)",
-					"fontSize": "var(--wp--preset--font-size--medium)"
-				}
-			},
 			"core/page-list": {
 				"elements": {
 					"link": {
@@ -165,6 +182,35 @@
 				}
 			},
 			"core/navigation": {
+				"elements": {
+					"link": {
+						":hover": {
+							"color": {
+								"background": "var(--wp--preset--color--accent)",
+								"text": "var(--wp--preset--color--base)"
+							},
+							"typography": {
+								"textDecoration": "none"
+							}
+						},
+						":focus": {
+							"typography": {
+								"textDecoration": "none"
+							}
+						},
+						"spacing": {
+							"padding": {
+								"top": "var(--wp--preset--spacing--20)",
+								"right": "var(--wp--preset--spacing--20)",
+								"bottom": "var(--wp--preset--spacing--20)",
+								"left": "var(--wp--preset--spacing--20)"
+							}
+						}
+					}
+				},
+				"spacing": {
+					"blockGap": 0
+				},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--dm-sans)",
 					"fontSize": "var(--wp--preset--font-size--medium)"
@@ -295,7 +341,7 @@
 		"spacing": {
 			"blockGap": "2rem",
 			"padding": {
-				"top": "var(--wp--preset--spacing--30)",
+				"top": "0",
 				"right": "var(--wp--preset--spacing--30)",
 				"bottom": "var(--wp--preset--spacing--30)",
 				"left": "var(--wp--preset--spacing--30)"
