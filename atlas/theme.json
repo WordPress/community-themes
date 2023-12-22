@@ -75,6 +75,11 @@
 					"color": "#5dd7b9",
 					"name": "Tertiary",
 					"slug": "tertiary"
+				},
+				{
+					"color": "#1c7590",
+					"name": "Accent",
+					"slug": "accent"
 				}
 			]
 		},
@@ -204,6 +209,11 @@
 					"fontSize": "var(--wp--preset--font-size--medium)",
 					"fontWeight": "700"
 				}
+			},
+			"core/social-links": {
+				"color": {
+					"text": { "ref": "styles.color.text" }
+				}
 			}
 		},
 		"elements": {
@@ -275,15 +285,26 @@
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--dm-sans)"
 				}
+			},
+			"link": {
+				"color": {
+					"text": "var(--wp--preset--color--accent)"
+				}
 			}
 		},
 		"spacing": {
-			"blockGap": "2rem"
+			"blockGap": "2rem",
+			"padding": {
+				"top": "0px",
+				"right": "var(--wp--preset--spacing--30)",
+				"bottom": "var(--wp--preset--spacing--40)",
+				"left": "var(--wp--preset--spacing--30)"
+			}
 		},
 		"typography": {
 			"lineHeight": "1.4"
 		}
 	},
 	"version": 2,
-	"$schema": "https://schemas.wp.org/wp/6.1/theme.json"
+	"$schema": "https://schemas.wp.org/wp/6.3/theme.json"
 }
