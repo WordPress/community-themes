@@ -127,6 +127,46 @@
 		},
 		"typography": {
 			"fluid": false,
+			"fontFamilies": [
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Raleway",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/raleway_normal_700.ttf"
+							]
+						},
+						{
+							"fontFamily": "Raleway",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/raleway_italic_700.ttf"
+							]
+						},
+						{
+							"fontFamily": "Raleway",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/raleway_normal_400.ttf"
+							]
+						},
+						{
+							"fontFamily": "Raleway",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/raleway_italic_400.ttf"
+							]
+						}
+					],
+					"fontFamily": "Raleway",
+					"slug": "raleway"
+				}
+			],
 			"fontSizes": [
 				{
 					"size": "1rem",
