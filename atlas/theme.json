@@ -57,12 +57,12 @@
 			],
 			"palette": [
 				{
-					"color": "#002635",
+					"color": "#e6e6dc",
 					"name": "Base",
 					"slug": "base"
 				},
 				{
-					"color": "#e6e6dc",
+					"color": "#002635",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
