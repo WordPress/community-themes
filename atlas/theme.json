@@ -25,7 +25,7 @@
 			],
 			"gradients": [
 				{
-					"gradient": "linear-gradient(180deg,#021524 0%,#002635 50%,#1f3e47 100%)",
+					"gradient": "linear-gradient(141deg,#021524 0%,#002635 50%,#1f3e47 100%)",
 					"name": "Base",
 					"slug": "base"
 				},
