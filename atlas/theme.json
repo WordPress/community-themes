@@ -30,7 +30,7 @@
 					"slug": "base"
 				},
 				{
-					"gradient": "linear-gradient(141deg,#021524 0%,#002635 50%,#1f3e47 100%)",
+					"gradient": "linear-gradient(141deg,#021524,#002635 71%,#1f3e47)",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
