@@ -25,12 +25,12 @@
 			],
 			"gradients": [
 				{
-					"gradient": "linear-gradient(141deg,#021524 0%,#002635 50%,#1f3e47 100%)",
+					"gradient": "linear-gradient(141deg, #9b9d96, #e6e6dc 71%, #ebe8e1)",
 					"name": "Base",
 					"slug": "base"
 				},
 				{
-					"gradient": "linear-gradient(141deg, #9b9d96, #e6e6dc 71%, #ebe8e1)",
+					"gradient": "linear-gradient(141deg,#021524 0%,#002635 50%,#1f3e47 100%)",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
@@ -268,19 +268,19 @@
 				},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--raleway)",
-					"fontSize": "var(--wp--preset--font-size--medium)"
+					"fontSize": "var(--wp--preset--font-size--atlas-medium)"
 				}
 			},
 			"core/post-title": {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--raleway)",
-					"fontSize": "var(--wp--preset--font-size--x-large)"
+					"fontSize": "var(--wp--preset--font-size--atlas-extra-large)"
 				}
 			},
 			"core/pullquote": {
 				"color": {
-					"text": "var(--wp--preset--color--contrast)",
-					"gradient": "var(--wp--preset--gradient--base)"
+					"text": "var(--wp--preset--color--base)",
+					"gradient": "var(--wp--preset--gradient--contrast)"
 				},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--raleway)"
