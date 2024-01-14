@@ -25,7 +25,7 @@
 			],
 			"gradients": [
 				{
-					"gradient": "linear-gradient(141deg, #9b9d96, #e6e6dc 71%, #ebe8e1)",
+					"gradient": "linear-gradient(141deg,#9b9d96,#e6e6dc 71%,#ebe8e1)",
 					"name": "Base",
 					"slug": "base"
 				},
@@ -35,17 +35,17 @@
 					"slug": "contrast"
 				},
 				{
-					"gradient": "linear-gradient(141deg, #b23926, #ff5a67 71%, #f97895)",
+					"gradient": "linear-gradient(141deg,#b23926,#ff5a67 71%,#f97895)",
 					"name": "Primary",
 					"slug": "primary"
 				},
 				{
-					"gradient": "linear-gradient(141deg, #a19100, #ffcc1b 71%, #ffce74)",
+					"gradient": "linear-gradient(141deg,#a19100,#ffcc1b 71%,#ffce74)",
 					"name": "Secondary",
 					"slug": "secondary"
 				},
 				{
-					"gradient": "linear-gradient(141deg, #289389, #5dd7b9 71%, #8cdab4)",
+					"gradient": "linear-gradient(141deg,#289389,#5dd7b9 71%,#8cdab4)",
 					"name": "Tertiary",
 					"slug": "tertiary"
 				}
