@@ -169,7 +169,7 @@
 			],
 			"fontSizes": [
 				{
-					"size": "0.75rem",
+					"size": "0.758rem",
 					"slug": "atlas-small"
 				},
 				{
@@ -177,15 +177,15 @@
 					"slug": "atlas-medium"
 				},
 				{
-					"size": "2rem",
+					"size": "1.318rem",
 					"slug": "atlas-large"
 				},
 				{
-					"size": "4rem",
+					"size": "2.884rem",
 					"slug": "atlas-extra-large"
 				},
 				{
-					"size": "8rem",
+					"size": "4rem",
 					"slug": "atlas-extra-extra-large"
 				}
 			],
@@ -228,6 +228,9 @@
 				}
 			},
 			"core/post-date": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--atlas-small)"
+				},
 				"elements": {
 					"link": {
 						"typography": {
@@ -276,10 +279,45 @@
 					"fontSize": "var(--wp--preset--font-size--atlas-medium)"
 				}
 			},
+			"core/post-author": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--atlas-small)"
+				}
+			},
+			"core/post-excerpt": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--atlas-medium)"
+				}
+			},
+			"core/post-terms": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--atlas-small)"
+				}
+			},
 			"core/post-title": {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--raleway)",
 					"fontSize": "var(--wp--preset--font-size--atlas-extra-large)"
+				}
+			},
+			"core/comment-date": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--atlas-small)"
+				}
+			},
+			"core/comment-edit-link": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--atlas-small)"
+				}
+			},
+			"core/comment-reply-link": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--atlas-small)"
+				}
+			},
+			"core/comments-title": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--atlas-large)"
 				}
 			},
 			"core/pullquote": {
@@ -290,7 +328,29 @@
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--raleway)"
 				},
-				"shadow": "inset 0 0 0 1px var(--wp--preset--color--contrast), inset 0 0 0 calc( 0.5rem + 1px ) var(--wp--preset--color--base)"
+				"shadow": "inset 0 0 0 1px var(--wp--preset--color--contrast), inset 0 0 0 calc( 0.5rem + 1px ) var(--wp--preset--color--base)",
+				"elements": {
+					"cite": {
+						"typography": {
+							"fontSize": "var(--wp--preset--font-size--atlas-small)"
+						}
+					}
+				}
+			},
+			"core/query": {
+				"elements": {
+					"h2": {
+						"typography": {
+							"fontSize": "var(--wp--preset--font-size--atlas-x-large)"
+						}
+					}
+				}
+			},
+			"core/query-pagination": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--atlas-small)",
+					"fontWeight": "400"
+				}
 			},
 			"core/quote": {
 				"spacing": {
@@ -302,6 +362,14 @@
 					"color": "var(--wp--preset--color--contrast)",
 					"width": "0 0 0 1px",
 					"style": "solid"
+				},
+				"elements": {
+					"cite": {
+						"typography": {
+							"fontSize": "var(--wp--preset--font-size--atlas-small)",
+							"fontStyle": "normal"
+						}
+					}
 				}
 			},
 			"core/separator": {
@@ -360,34 +428,34 @@
 			},
 			"h1": {
 				"typography": {
-					"fontSize": "5rem"
+					"fontSize": "6.782rem"
 				}
 			},
 			"h2": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--atlas-extra-large)"
+					"fontSize": "4rem"
 				}
 			},
 			"h3": {
 				"typography": {
-					"fontSize": "3rem"
+					"fontSize": "2.884rem"
 				}
 			},
 			"h4": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--atlas-large)"
+					"fontSize": "1.977rem"
 				}
 			},
 			"h5": {
 				"typography": {
-					"fontSize": "1.5rem",
+					"fontSize": "1.318rem",
 					"fontWeight": "400",
 					"textTransform": "none"
 				}
 			},
 			"h6": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--atlas-medium)",
+					"fontSize": "1rem",
 					"fontWeight": "700",
 					"textTransform": "none"
 				}
@@ -408,6 +476,7 @@
 			}
 		},
 		"typography": {
+			"fontSize": "var(--wp--preset--font-size--atlas-medium)",
 			"lineHeight": "1.4"
 		}
 	},
