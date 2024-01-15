@@ -249,8 +249,7 @@
 					"link": {
 						":hover": {
 							"color": {
-								"background": "var(--wp--preset--color--accent)",
-								"text": "var(--wp--preset--color--base)"
+								"text": "var(--wp--preset--color--accent)"
 							},
 							"typography": {
 								"textDecoration": "none"
