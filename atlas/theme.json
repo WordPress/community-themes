@@ -480,6 +480,13 @@
 			"lineHeight": "1.4"
 		}
 	},
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header-starscape",
+			"title": "Starscape Header"
+		}
+	],
 	"version": 2,
 	"$schema": "https://schemas.wp.org/trunk/theme.json"
 }
