@@ -61,6 +61,7 @@ There's many ways to contribute to community themes that are a work in progress:
 - By triaging existing issues and tagging them correctly for other contributors to find and work on.
 - By opening new issues whenever you find a bug or a concern with the theme in progress.
 - By adding to the discussion on open issues and PRs. Decisions are made by consensus, so please add your voice to the discussion!
+- By updating the contributors file for each theme including the names of the users that worked on the theme so they can get props for their work (anyone that did something from this list of items counts as a contributor to the theme).
 
 ### Pattern creation guidelines
 
