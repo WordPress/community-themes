@@ -2,20 +2,21 @@
 /**
  * Title: index
  * Slug: poetry/index
- * Categories: hidden
- * Inserter: no
+ * Categories: posts
+ * Block Types: core/query
  */
 ?>
-<!-- wp:template-part {"slug":"header","tagName":"header","theme":"poetry"} /-->
 
 <!-- wp:query {"queryId":0,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true,"taxQuery":null,"parents":[]},"tagName":"main","backgroundColor":"custom-background-light","layout":{"inherit":true}} -->
 <main class="wp-block-query has-custom-background-light-background-color has-background"><!-- wp:post-template -->
 <!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"padding":{"top":"96px","right":"0","bottom":"96px","left":"0"},"blockGap":"40px"}},"layout":{"type":"flex","flexWrap":"nowrap","orientation":"horizontal","verticalAlignment":"top","justifyContent":"center"}} -->
-<div class="wp-block-group" style="padding-top:96px;padding-right:0;padding-bottom:96px;padding-left:0"><!-- wp:group {"style":{"spacing":{"padding":{"top":"96px"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group" style="padding-top:96px;padding-right:0;padding-bottom:96px;padding-left:0"><!-- wp:group {"style":{"spacing":{"padding":{"top":"96px"}},"layout":{"selfStretch":"fixed","flexSize":"155px"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group" style="padding-top:96px"><!-- wp:post-date /--></div>
 <!-- /wp:group -->
 
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group">
 <!-- wp:group {"style":{"spacing":{"padding":{"right":"56px","left":"56px"},"blockGap":"32px"},"border":{"left":{"width":"2px"}}},"layout":{"type":"flex","orientation":"vertical","flexWrap":"nowrap"}} -->
 <div class="wp-block-group" style="border-left-width:2px;padding-right:56px;padding-left:56px"><!-- wp:image {"id":15,"width":56,"height":56,"sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/feather-small.png" alt="" class="wp-image-15" width="56" height="56"/></figure>
@@ -33,6 +34,7 @@
 
 <!-- wp:post-content /--></div>
 <!-- /wp:group --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:spacer {"height":"40px"} -->
@@ -41,5 +43,3 @@
 <!-- /wp:group -->
 <!-- /wp:post-template --></main>
 <!-- /wp:query -->
-
-<!-- wp:template-part {"slug":"footer","tagName":"footer","theme":"poetry"} /-->
