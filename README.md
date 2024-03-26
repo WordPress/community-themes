@@ -65,7 +65,7 @@ There's many ways to contribute to community themes that are a work in progress:
 
 ### Pattern creation guidelines
 
-[Reference guide for patterns in the handbook](https://developer.wordpress.org/block-editor/reference-guides/block-api/block-patterns/).
+[Reference guide for patterns in the handbook](https://developer.wordpress.org/themes/features/block-patterns/).
 A few things to have in mind when building patterns for the default theme:
 
 - **Category selection**
