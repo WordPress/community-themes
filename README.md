@@ -53,24 +53,24 @@ As a reminder, some of the things to keep in mind when building a theme usually 
 
 ### How to contribute to an existing theme
 
-There's many ways to contribute to community themes that are a work in progress:
+There are many ways to contribute to community themes that are a work in progress:
 
-- By reviewing open PRs: test that the changes are working as intended. If the PR is including block markup, check that all translatable strings are wrapped inside translation functions. If the PR is adding new design elements, take into account accesibility concerns such as color contrast, font sizes and size scaling, etc.
-- By adding PRs for open issues: some themes will need work on new templates or template parts. Search for the open issues for the theme you want to work on and pick one you wish to work on. Assign yourself to the issue so everyone knows someone is working on them.
-- By adding block patterns to the theme. This can be done by extracting parts of the templates into patterns or by creating new ones that would fit the general design of the theme.
+- By reviewing open PRs: test that the changes are working as intended. If the PR includes block markup, check that all translatable strings are wrapped inside translation functions. If the PR is adding new design elements, consider accessibility concerns such as color contrast, font sizes, and size scaling, etc.
+- By adding PRs for open issues, some themes will need work on new templates or template parts. Search for the open issues for the theme you want to work on and pick one you wish to work on. Assign yourself to the issue so everyone knows someone is working on them.
+- By adding block patterns to the theme. This can be done by extracting parts of the templates into patterns or by creating new ones that fit the theme's general design.
 - By triaging existing issues and tagging them correctly for other contributors to find and work on.
 - By opening new issues whenever you find a bug or a concern with the theme in progress.
 - By adding to the discussion on open issues and PRs. Decisions are made by consensus, so please add your voice to the discussion!
-- By updating the contributors file for each theme including the names of the users that worked on the theme so they can get props for their work (anyone that did something from this list of items counts as a contributor to the theme).
+- Update the contributors' file for each theme, including the names of the users who worked on the theme so they can get props for their work (anyone who did something from this list of items counts as a contributor to the theme).
 
 ### Pattern creation guidelines
 
-[Reference guide for patterns in the handbook](https://developer.wordpress.org/themes/features/block-patterns/).
-A few things to have in mind when building patterns for the default theme:
+[Reference guide for patterns in the handbook](https://developer.wordpress.org/themes/features/block-patterns/). Some best [practices and tips for designing and developing patterns](https://developer.wordpress.org/news/2024/03/19/pattern-design-tips-and-tricks-for-developers/) and a [guide for creating full page and template patterns](https://developer.wordpress.org/news/2024/01/31/adding-starter-patterns-to-your-wordpress-themes/).
+A few things to have in mind when building patterns:
 
 - **Category selection**
 
-When creating WordPress block patterns, it's important to carefully choose the appropriate category for your pattern. WordPress provides a set of default categories, each serving a specific purpose. Let's stick to using the default categories. We can add multiple of them separating them by commas. The list of the slug is [here](https://github.com/WordPress/gutenberg/blob/c20350c1d246163201375f090b0b7b4ab49b1dad/packages/block-editor/src/components/inserter/block-patterns-tab.js#L35).
+When creating WordPress block patterns, it's important to choose the appropriate category for your pattern carefully. WordPress provides a set of default categories, each serving a specific purpose. Let's stick to using the default categories. We can add multiple of them, separating them by commas. The list of the slug is [here](https://github.com/WordPress/gutenberg/blob/c20350c1d246163201375f090b0b7b4ab49b1dad/packages/block-editor/src/components/inserter/block-patterns-tab.js#L35).
 
 - **Hiding patterns from the inserter**
 
