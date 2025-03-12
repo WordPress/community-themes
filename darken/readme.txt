@@ -9,7 +9,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 
 == Description ==
-
+Darken is a meticulously designed theme for portfolio and blog websites. It features a perfect blend of fonts and colors, offering a visually appealing experience. With built-in editor styles, you can effortlessly switch your website to dark mode. This theme is modern, responsive, and optimized for speed.
 
 == Changelog ==
 
