@@ -34,6 +34,7 @@ if ( ! function_exists( 'term_block_styles' ) ) :
 				}',
 			)
 		);
+
 	}
 endif;
 
