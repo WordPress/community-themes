@@ -39,7 +39,7 @@
 		},
 		{
 			"area": "overlay",
-			"name": "overlay-pattern"
+			"name": "overlay"
 		}
 	]
 }
