@@ -38,8 +38,8 @@
 			"name": "footer"
 		},
 		{
-			"area": "overlay",
-			"name": "overlay"
+			"area": "navigation-overlay",
+			"name": "navigation-overlay"
 		}
 	]
 }
