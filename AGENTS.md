@@ -4,7 +4,7 @@ This file provides guidance to AI coding agents working in this repository.
 
 ## Repository Overview
 
-Monorepo of WordPress block themes built by the Automattic community, aimed at submission to the WordPress.org themes directory. Themes use the WordPress block editor and Full Site Editing (FSE) capabilities.
+Monorepo of WordPress block themes built by the WordPress community, aimed at submission to the WordPress.org themes directory. Themes use the WordPress block editor and Full Site Editing (FSE) capabilities.
 
 **Tech stack**: PHP, JSON (theme.json), HTML (block templates), Node.js (tooling only)
 
