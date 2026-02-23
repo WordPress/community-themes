@@ -55,7 +55,7 @@ Theme URI: https://github.com/WordPress/community-themes/tree/trunk/my-theme-nam
 Author: the WordPress team
 Author URI: https://wordpress.org/
 Description: Brief description here.
-Requires at least: 6.1
+Requires at least: X.X
 Tested up to: 6.6
 Requires PHP: 7.4
 Version: 0.0.1
