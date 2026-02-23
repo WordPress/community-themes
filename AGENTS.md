@@ -56,7 +56,7 @@ Author: the WordPress team
 Author URI: https://wordpress.org/
 Description: Brief description here.
 Requires at least: X.X
-Tested up to: 6.6
+Tested up to: X.X
 Requires PHP: 7.4
 Version: 0.0.1
 License: GNU General Public License v2 or later
