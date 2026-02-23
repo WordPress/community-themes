@@ -201,7 +201,7 @@ A child theme will inherit styles and templates from its parent. To make a child
 - Inherit templates, parts, and patterns from the parent
 - Override by creating files with the same name in the child theme
 
-Some may be standalone block themes (no `Template` field).
+To create a standalone block themes, don't include a `Template` field.
 
 ## Common Pitfalls
 
