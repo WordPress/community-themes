@@ -196,7 +196,7 @@ Common parts: `header.html`, `footer.html`
 
 ## Child Themes vs. Standalone Themes
 
-Most themes in this repo are **child themes of Twenty Twenty-Three**:
+A child theme will inherit styles and templates from its parent. To make a child of TwentyTwentyThree:
 - `Template: twentytwentythree` in `style.css`
 - Inherit templates, parts, and patterns from the parent
 - Override by creating files with the same name in the child theme
