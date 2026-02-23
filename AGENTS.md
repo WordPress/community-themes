@@ -149,7 +149,7 @@ Use slugs defined in the theme's `theme.json` for colors, font sizes, and spacin
 
 - Regular patterns: `pattern-name.php`
 - Hidden utility patterns (404, navigation, etc.): `hidden-pattern-name.php` + `Inserter: no` header
-- Full page patterns: `page-pattern-name.php`
+- Full page patterns: `page-pattern-name.php` + * Post Types: page, wp_template
 
 ### 7. Pattern categories
 
