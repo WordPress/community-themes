@@ -6,7 +6,7 @@ This file provides guidance to AI coding agents working in this repository.
 
 Monorepo of WordPress block themes built by the WordPress community, aimed at submission to the WordPress.org themes directory. Themes use the WordPress block editor and Full Site Editing (FSE) capabilities.
 
-**Tech stack**: PHP, JSON (theme.json), HTML (block templates), Node.js (tooling only)
+**Tech stack**: PHP, JSON (theme.json), HTML (block templates), CSS, Node.js (tooling only)
 
 **Node version**: 20.10.0 (see `.nvmrc`)
 
