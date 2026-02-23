@@ -137,7 +137,7 @@ These IDs are environment-specific and will break on other installations.
 
 ```json
 // CORRECT — use palette slug
-"textColor": "contrast"
+"textColor": "var:preset|color|contrast"
 
 // WRONG — hardcoded value
 "style": { "color": { "text": "#000000" } }
@@ -182,9 +182,25 @@ Example structure:
         { "slug": "small", "size": "0.875rem", "name": "Small" }
       ]
     }
+  },
+  "styles": {
+    "typography": { "fontFamily": "var(--wp--preset--font-family--inter)", "lineHeight": "1.5" },
+    "elements": {
+      "h1": { "typography": { "fontSize": "var(--wp--preset--font-size--xx-large)" } },
+      "link": { ":hover": { "typography": { "textDecoration": "none" } } }
+    },
+    "blocks": {
+      "core/quote": {
+        "border": { "color": "var(--wp--preset--color--contrast)", "style": "solid", "width": "0 0 0 2px" }
+      }
+    }
   }
 }
 ```
+
+- **`styles`** — Global defaults (color, typography, spacing) for the whole site
+- **`styles.elements`** — Targets semantic elements (`heading`, `h1`–`h6`, `link`, `button`); supports pseudo-selectors (`:hover`, `:focus`)
+- **`styles.blocks`** — Scoped styles for specific block types (e.g. `core/quote`, `core/button`)
 
 ## Block Templates and Parts
 
