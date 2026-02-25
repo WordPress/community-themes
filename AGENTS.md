@@ -61,7 +61,7 @@ Requires PHP: 7.4
 Version: 0.0.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Template: twentytwentythree
+Template: parentthemeslug (Optional)
 Text Domain: my-theme-name
 Tags: one-column, custom-colors, ...
 */
@@ -73,7 +73,7 @@ Tags: one-column, custom-colors, ...
 
 ## Pattern Development — Critical Rules
 
-Pattern files live in `patterns/` and MUST be `.php` files.
+Pattern files live in `patterns/`. They can be HTML or PHP files, but if they contain dynamic data (e.g. image paths or translations, they must be `.php` files.
 
 ### 1. File Header (required in every pattern file)
 
@@ -130,6 +130,8 @@ When copying patterns from the block editor, MUST remove:
 - `"id"` from image blocks (`<!-- wp:image {"id":123} -->` → `<!-- wp:image {} -->`)
 - `"queryId"` from query blocks
 - `"theme"` attribute from template-part blocks
+- `"ref"` attribute from navigation blocks
+
 
 These IDs are environment-specific and will break on other installations.
 
