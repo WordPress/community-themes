@@ -41,6 +41,31 @@ You can boot up the Playground with the selected theme by clicking one of the li
 
 #### If you want to work locally:
 
+##### Option A — wp-env (recommended)
+
+Requires [Docker](https://www.docker.com/get-started/). Boots a self-contained WordPress instance with all themes in this repo available and ready to use — no manual WordPress setup needed.
+
+```bash
+# Install dependencies (first time only)
+npm install
+
+# Start the environment
+npm run env:start
+
+# Start with a specific theme already active
+npm run env:start -- --theme blue-note
+
+# Stop / tear down
+npm run env:stop
+npm run env:destroy
+```
+
+The site runs at `http://localhost:8888` (or the next available port if 8888 is in use). Login with `admin` / `password`.
+
+All theme directories are live-mounted — edits are reflected immediately without restarting.
+
+##### Option B — manual setup
+
 1. Set up a WordPress instance, here is a [handy guide to install WordPress locally](https://wordpress.org/support/article/installing-wordpress-on-your-own-computer/)
 2. Clone / download this repository into your `/wp-content/themes/` directory
 3. You may want to install the [Create Block Theme plugin](https://wordpress.org/plugins/create-block-theme/) to help you generate the theme files if you want to build your Theme directly on the Site Editor.
@@ -50,7 +75,7 @@ If it's your first time building a Block Theme, we suggest checking the Resource
 #### Requirements for local setup
 
 - WordPress 6.1+
-- PHP 5.6+
+- PHP 7.4+
 - License: [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) or later
 
 #### For New Contributors

@@ -260,14 +260,19 @@ Themes submitted to WordPress.org must:
 # Standard WordPress (bundled editor)
 npm run env:start
 
+# Activate a specific theme on start
+npm run env:start -- --theme blue-note
+
 # WordPress + Gutenberg plugin (latest stable)
-npm run env:start:gutenberg
+npm run env:start:gutenberg -- --theme blue-note
 
 npm run env:stop     # Stop the environment
 npm run env:destroy  # Remove containers and volumes (fresh start)
 ```
 
 Site runs at `http://localhost:8888` (or the next available port if 8888 is taken) — credentials: `admin` / `password`.
+
+Pass `--theme <theme-slug>` to activate a specific theme automatically after startup. The slug must match the theme's directory name (e.g. `blue-note`, `archivist`).
 
 All theme directories are live-mounted, so changes are reflected immediately without restarting. To use a local Gutenberg checkout instead of the downloaded plugin, add a `.wp-env.override.json` at the repo root:
 
