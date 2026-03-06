@@ -18,20 +18,16 @@ import { readFileSync, writeFileSync, existsSync, unlinkSync } from 'fs';
 
 const PORT_FILE = '.wp-env-port';
 
-function findFreePort( start = 8888 ) {
+function isPortFree( port ) {
 	return new Promise( ( resolve ) => {
 		const server = createServer();
-		server.on( 'error', () => resolve( findFreePort( start + 1 ) ) );
-		server.listen( start, () => server.close( () => resolve( start ) ) );
+		server.on( 'error', () => resolve( false ) );
+		server.listen( port, () => server.close( () => resolve( true ) ) );
 	} );
 }
 
-function isPortInUse( port ) {
-	return new Promise( ( resolve ) => {
-		const server = createServer();
-		server.on( 'error', () => resolve( true ) );
-		server.listen( port, () => server.close( () => resolve( false ) ) );
-	} );
+async function findFreePort( start = 8888 ) {
+	return ( await isPortFree( start ) ) ? start : findFreePort( start + 1 );
 }
 
 function readSavedPort() {
@@ -78,7 +74,7 @@ if ( themeIndex !== -1 ) {
 }
 
 const savedPort = readSavedPort();
-const alreadyRunning = savedPort && ( await isPortInUse( savedPort ) );
+const alreadyRunning = savedPort && ! ( await isPortFree( savedPort ) );
 
 if ( alreadyRunning ) {
 	// Instance is already running — skip wp-env start, just activate the theme.
@@ -107,7 +103,7 @@ if ( alreadyRunning ) {
 		// Persist port so stop/destroy can target this instance.
 		writeFileSync( PORT_FILE, String( port ) );
 
-		if ( ! themeSlug || ! args.includes( 'start' ) ) {
+		if ( ! themeSlug ) {
 			process.exit( 0 );
 		}
 
