@@ -14,8 +14,8 @@
 		"prepare": "husky install",
 		"env:start": "node env.mjs start",
 		"env:start:gutenberg": "node env.mjs start --config .wp-env.gutenberg.json",
-		"env:stop": "wp-env stop",
-		"env:destroy": "wp-env destroy"
+		"env:stop": "node env.mjs stop",
+		"env:destroy": "node env.mjs destroy"
 	},
 	"devDependencies": {
 		"@wordpress/env": "^10.0.0",

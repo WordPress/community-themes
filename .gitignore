@@ -1,5 +1,6 @@
 *.DS_Store
 node_modules
+.wp-env-port
 
 #files not allowed by the guidelines
 thumbs.db
