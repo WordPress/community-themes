@@ -1,0 +1,8 @@
+{
+	"core": "WordPress/WordPress",
+	"plugins": [ "https://downloads.wordpress.org/plugin/gutenberg.latest-stable.zip" ],
+	"themes": [ "https://downloads.wordpress.org/theme/twentytwentythree.latest-stable.zip" ],
+	"mappings": {
+		"wp-content/themes": "."
+	}
+}

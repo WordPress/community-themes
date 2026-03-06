@@ -254,6 +254,29 @@ Themes submitted to WordPress.org must:
 
 **WordPress Playground (no local setup required)**: Use the Playground links in `README.md` to preview themes in-browser.
 
-**Local development**: Clone this repo into your WordPress install's `wp-content/themes/` directory. Each theme directory will appear as a separate theme in the admin.
+**wp-env (recommended for local development)**: Requires Docker. Boots a sandboxed WordPress instance with all themes from this repo mounted and the Twenty Twenty-Three parent theme pre-installed.
+
+```bash
+# Standard WordPress (bundled editor)
+npm run env:start
+
+# WordPress + Gutenberg plugin (latest stable)
+npm run env:start:gutenberg
+
+npm run env:stop     # Stop the environment
+npm run env:destroy  # Remove containers and volumes (fresh start)
+```
+
+Site runs at `http://localhost:8888` (or the next available port if 8888 is taken) — credentials: `admin` / `password`.
+
+All theme directories are live-mounted, so changes are reflected immediately without restarting. To use a local Gutenberg checkout instead of the downloaded plugin, add a `.wp-env.override.json` at the repo root:
+
+```json
+{
+  "plugins": [ "../gutenberg" ]
+}
+```
+
+**Manual local development**: Clone this repo into your WordPress install's `wp-content/themes/` directory. Each theme directory will appear as a separate theme in the admin.
 
 Recommended plugin: Create Block Theme (helps generate theme files from the editor).

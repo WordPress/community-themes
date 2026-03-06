@@ -1,0 +1,7 @@
+{
+	"core": "WordPress/WordPress",
+	"themes": [ "https://downloads.wordpress.org/theme/twentytwentythree.latest-stable.zip" ],
+	"mappings": {
+		"wp-content/themes": "."
+	}
+}
