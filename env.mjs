@@ -45,8 +45,27 @@ child.on( 'exit', ( code ) => {
 
 	console.log( `Activating theme: ${ themeSlug }` );
 	const activate = spawn( 'wp-env', [ 'run', 'cli', 'wp', 'theme', 'activate', themeSlug ], {
-		stdio: 'inherit',
+		stdio: [ 'inherit', 'pipe', 'pipe' ],
 		env: wpEnvEnv,
 	} );
-	activate.on( 'exit', ( activateCode ) => process.exit( activateCode ?? 0 ) );
+
+	let activateOutput = '';
+	activate.stdout.on( 'data', ( data ) => {
+		const text = data.toString();
+		activateOutput += text;
+		process.stdout.write( text );
+	} );
+	activate.stderr.on( 'data', ( data ) => {
+		const text = data.toString();
+		activateOutput += text;
+		process.stderr.write( text );
+	} );
+
+	activate.on( 'exit', ( activateCode ) => {
+		if ( activateCode !== 0 || ! activateOutput.includes( 'Success:' ) ) {
+			console.error( `Error: Failed to activate theme '${ themeSlug }'. Make sure the theme slug is correct.` );
+			process.exit( 1 );
+		}
+		process.exit( 0 );
+	} );
 } );
