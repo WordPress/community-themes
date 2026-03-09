@@ -11,9 +11,14 @@
 	"scripts": {
 		"patterns:escape": "node ./theme-utils.mjs escape-patterns",
 		"schema:validate": "node ./theme-utils.mjs validate-schema",
-		"prepare": "husky install"
+		"prepare": "husky install",
+		"env:start": "node env.mjs start",
+		"env:start:gutenberg": "node env.mjs start --config .wp-env.gutenberg.json",
+		"env:stop": "node env.mjs stop",
+		"env:destroy": "node env.mjs destroy"
 	},
 	"devDependencies": {
+		"@wordpress/env": "^10.0.0",
 		"ajv": "^8.16.0",
 		"ajv-draft-04": "^1.0.0",
 		"fs-extra": "^11.1.0",
