@@ -17,8 +17,8 @@ A theme of default styles
 
 == Copyright ==
 
-Tardis WordPress Theme, (C) 2024 the WordPress team
-Tardis is distributed under the terms of the GNU GPL.
+Archivist WordPress Theme, (C) 2024 the WordPress team
+Archivist is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
