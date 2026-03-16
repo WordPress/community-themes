@@ -21,7 +21,7 @@ if ( ! function_exists( 'term_block_styles' ) ) :
 	function term_block_styles() {
 
 		register_block_style(
-			'core/social-links',
+			'core/social-links', 
 			array(
 				'name'         => 'social-rounded-icons',
                 'label'        => __( 'Rounded icons', 'term' ),
@@ -34,6 +34,18 @@ if ( ! function_exists( 'term_block_styles' ) ) :
 				}',
 			)
 		);
+
+		register_block_style(
+            'core/image',
+            array(
+                'name' => 'bordered',
+                'label' => __('Bordered', 'term'),
+                'inline_style' => '.wp-block-image.is-style-bordered img{
+                    border-radius: .5rem;
+                    border: .25rem solid black;
+                }'
+            )
+        );
 	}
 endif;
 
