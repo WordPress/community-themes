@@ -1,7 +1,7 @@
 === Purr ===
 Contributors: wordpressdotorg
 Requires at least: 6.5
-Tested up to: 6.5.2
+Tested up to: 6.6
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -29,3 +29,24 @@ This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
+
+This theme bundles the following third-party resources:
+
+=== Fonts ===
+
+Jost Font
+Copyright 2020 The Jost Project Authors.
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: https://github.com/indestructible-type/Jost
+
+DM Sans Font
+Copyright 2014-2017 Indian Type Foundry (info@indiantypefoundry.com)
+Copyright 2019 Google LLC
+Copyright 2014-2018 Adobe (http://www.adobe.com/)
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: https://github.com/googlefonts/dm-fonts
+
+Instrument Sans Font
+Copyright 2022 The Instrument Sans Project Authors.
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: https://github.com/Instrument/instrument-sans
