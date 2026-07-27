@@ -12,13 +12,14 @@ point at the head branch of the duotone child PR.
 | Feature | `light-theme` | `dark-theme` |
 | --- | --- | --- |
 | Default scheme | Light | Dark |
-| Opposite scheme | Inline `settings.color.dark` | `lightScheme: "Daybreak"` |
+| Named schemes | Citrus Daylight / Electric Dusk | Midnight Terminal / Paper Morning |
+| Opposite scheme | Inline `settings.color.dark` | `lightScheme: "Paper Morning"` |
 | Palette overrides | Yes | Yes, from style variation |
 | Gradient overrides | Yes | Yes, from style variation |
 | Duotone overrides | Yes | Yes, from style variation |
 | Unmatched preset fallback | `fixed-accent` | `fixed-accent` |
 | Inline beats variation reference | `dark` must beat `Reference Dark` | Not applicable |
-| Ignore non-color variation styles | Not applicable | Daybreak's magenta/green and Comic Sans styles must not leak |
+| Ignore non-color variation styles | Not applicable | Paper Morning's magenta/green and Comic Sans styles must not leak |
 | Core Color Scheme Toggle block | Yes | Yes |
 | `data-scheme` force/reset | Core toggle plus System/Light/Dark test helper | Core toggle plus System/Light/Dark test helper |
 
@@ -79,7 +80,7 @@ Theme-specific checks:
 - `light-theme`: the dark scheme must use the restrained navy/pink values from
   inline `settings.color.dark`, not the neon green/magenta values in Reference
   Dark. This verifies inline precedence over `darkScheme`.
-- `dark-theme`: light mode must use Daybreak's color presets while retaining
+- `dark-theme`: light mode must use Paper Morning's color presets while retaining
   the theme's Georgia font. A magenta background, green text, or Comic Sans
   indicates that non-color variation data leaked into scheme resolution.
 

@@ -12,34 +12,34 @@
 			"defaultPalette": false,
 			"palette": [
 				{
-					"color": "#11131f",
+					"color": "#061a14",
 					"name": "Base",
 					"slug": "base"
 				},
 				{
-					"color": "#f8f0db",
+					"color": "#d1fae5",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
 				{
-					"color": "#ffcf5c",
+					"color": "#22c55e",
 					"name": "Primary",
 					"slug": "primary"
 				},
 				{
-					"color": "#8ad5cc",
+					"color": "#f97316",
 					"name": "Secondary",
 					"slug": "secondary"
 				},
 				{
-					"color": "#ef476f",
+					"color": "#a78bfa",
 					"name": "Fixed accent",
 					"slug": "fixed-accent"
 				}
 			],
 			"gradients": [
 				{
-					"gradient": "linear-gradient(135deg, #ef476f 0%, #50345e 50%, #184e77 100%)",
+					"gradient": "linear-gradient(135deg, #14532d 0%, #7c2d12 50%, #4c1d95 100%)",
 					"name": "Signal",
 					"slug": "signal"
 				}
@@ -47,14 +47,14 @@
 			"duotone": [
 				{
 					"colors": [
-						"#11131f",
-						"#8ad5cc"
+						"#061a14",
+						"#22c55e"
 					],
 					"name": "Portrait",
 					"slug": "portrait"
 				}
 			],
-			"lightScheme": "Daybreak"
+			"lightScheme": "Paper Morning"
 		},
 		"layout": {
 			"contentSize": "720px",

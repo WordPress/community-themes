@@ -12,34 +12,34 @@
 			"defaultPalette": false,
 			"palette": [
 				{
-					"color": "#fffaf2",
+					"color": "#fff8d6",
 					"name": "Base",
 					"slug": "base"
 				},
 				{
-					"color": "#17233d",
+					"color": "#172554",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
 				{
-					"color": "#a8324a",
+					"color": "#e11d48",
 					"name": "Primary",
 					"slug": "primary"
 				},
 				{
-					"color": "#176b70",
+					"color": "#0369a1",
 					"name": "Secondary",
 					"slug": "secondary"
 				},
 				{
-					"color": "#f4b942",
+					"color": "#84cc16",
 					"name": "Fixed accent",
 					"slug": "fixed-accent"
 				}
 			],
 			"gradients": [
 				{
-					"gradient": "linear-gradient(135deg, #f4b942 0%, #f7d6ba 48%, #7cc8c4 100%)",
+					"gradient": "linear-gradient(135deg, #facc15 0%, #fb7185 48%, #38bdf8 100%)",
 					"name": "Signal",
 					"slug": "signal"
 				}
@@ -47,8 +47,8 @@
 			"duotone": [
 				{
 					"colors": [
-						"#17233d",
-						"#f4b942"
+						"#172554",
+						"#facc15"
 					],
 					"name": "Portrait",
 					"slug": "portrait"
@@ -58,33 +58,33 @@
 			"dark": {
 				"palette": [
 					{
-						"color": "#101728",
+						"color": "#1e0a3c",
 						"slug": "base"
 					},
 					{
-						"color": "#fff7e8",
+						"color": "#fdf4ff",
 						"slug": "contrast"
 					},
 					{
-						"color": "#ff8aa0",
+						"color": "#f472b6",
 						"slug": "primary"
 					},
 					{
-						"color": "#75ddd6",
+						"color": "#22d3ee",
 						"slug": "secondary"
 					}
 				],
 				"gradients": [
 					{
-						"gradient": "linear-gradient(135deg, #5f365f 0%, #1b3856 48%, #176b70 100%)",
+						"gradient": "linear-gradient(135deg, #4c1d95 0%, #be185d 48%, #0e7490 100%)",
 						"slug": "signal"
 					}
 				],
 				"duotone": [
 					{
 						"colors": [
-							"#0a1020",
-							"#ff8aa0"
+							"#1e0a3c",
+							"#22d3ee"
 						],
 						"slug": "portrait"
 					}

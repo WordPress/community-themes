@@ -1,34 +1,34 @@
 {
 	"$schema": "https://raw.githubusercontent.com/WordPress/gutenberg/try/dark-mode-duotone/schemas/json/theme.json",
 	"version": 3,
-	"title": "Daybreak",
+	"title": "Paper Morning",
 	"settings": {
 		"color": {
 			"palette": [
 				{
-					"color": "#fffdf7",
+					"color": "#ecfdf5",
 					"name": "Base",
 					"slug": "base"
 				},
 				{
-					"color": "#252130",
+					"color": "#052e16",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
 				{
-					"color": "#9c2f52",
+					"color": "#15803d",
 					"name": "Primary",
 					"slug": "primary"
 				},
 				{
-					"color": "#12636a",
+					"color": "#c2410c",
 					"name": "Secondary",
 					"slug": "secondary"
 				}
 			],
 			"gradients": [
 				{
-					"gradient": "linear-gradient(135deg, #ffd166 0%, #f7cac9 50%, #8ecae6 100%)",
+					"gradient": "linear-gradient(135deg, #bbf7d0 0%, #fed7aa 50%, #ddd6fe 100%)",
 					"name": "Signal",
 					"slug": "signal"
 				}
@@ -36,8 +36,8 @@
 			"duotone": [
 				{
 					"colors": [
-						"#252130",
-						"#ffd166"
+						"#052e16",
+						"#f97316"
 					],
 					"name": "Portrait",
 					"slug": "portrait"
