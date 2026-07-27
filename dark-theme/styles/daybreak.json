@@ -1,0 +1,57 @@
+{
+	"$schema": "https://raw.githubusercontent.com/WordPress/gutenberg/try/dark-mode-duotone/schemas/json/theme.json",
+	"version": 3,
+	"title": "Daybreak",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"color": "#fffdf7",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#252130",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#9c2f52",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#12636a",
+					"name": "Secondary",
+					"slug": "secondary"
+				}
+			],
+			"gradients": [
+				{
+					"gradient": "linear-gradient(135deg, #ffd166 0%, #f7cac9 50%, #8ecae6 100%)",
+					"name": "Signal",
+					"slug": "signal"
+				}
+			],
+			"duotone": [
+				{
+					"colors": [
+						"#252130",
+						"#ffd166"
+					],
+					"name": "Portrait",
+					"slug": "portrait"
+				}
+			]
+		}
+	},
+	"styles": {
+		"color": {
+			"background": "#ff00ff",
+			"text": "#00ff00"
+		},
+		"typography": {
+			"fontFamily": "Comic Sans MS"
+		}
+	}
+}
