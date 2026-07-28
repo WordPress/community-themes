@@ -12,9 +12,9 @@ A light-first test theme for the experimental Gutenberg color-scheme data model.
 == Description ==
 
 This theme is a manual test fixture for WordPress/gutenberg#80698 and its
-scheme-aware duotone follow-up, WordPress/gutenberg#80746. It intentionally uses
-inline dark overrides while also naming a style variation, so the inline values
-must win.
+scheme-aware duotone follow-up, WordPress/gutenberg#80746. Its base palette is
+the light Citrus Daylight scheme, and it supplies the contrasting Electric Dusk
+scheme through inline settings.color.dark overrides.
 
 == Changelog ==
 

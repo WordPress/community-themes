@@ -54,7 +54,41 @@
 					"slug": "portrait"
 				}
 			],
-			"lightScheme": "Paper Morning"
+			"light": {
+				"palette": [
+					{
+						"color": "#ecfdf5",
+						"slug": "base"
+					},
+					{
+						"color": "#052e16",
+						"slug": "contrast"
+					},
+					{
+						"color": "#15803d",
+						"slug": "primary"
+					},
+					{
+						"color": "#c2410c",
+						"slug": "secondary"
+					}
+				],
+				"gradients": [
+					{
+						"gradient": "linear-gradient(135deg, #bbf7d0 0%, #fed7aa 50%, #ddd6fe 100%)",
+						"slug": "signal"
+					}
+				],
+				"duotone": [
+					{
+						"colors": [
+							"#052e16",
+							"#f97316"
+						],
+						"slug": "portrait"
+					}
+				]
+			}
 		},
 		"layout": {
 			"contentSize": "720px",

@@ -15,8 +15,6 @@
 		<p class="has-contrast-color has-fixed-accent-background-color has-text-color has-background has-small-font-size" style="border-radius:999px;padding-top:0.35rem;padding-right:0.75rem;padding-bottom:0.35rem;padding-left:0.75rem"><?php echo esc_html__( 'DARK THEME · Midnight Terminal', 'dark-theme' ); ?></p>
 		<!-- /wp:paragraph -->
 
-		<!-- wp:color-scheme-toggle /-->
-
 		<!-- wp:html -->
 		<div class="scheme-lab__switcher" role="group" aria-label="<?php echo esc_attr__( 'Preview color scheme', 'dark-theme' ); ?>">
 			<button type="button" data-scheme-choice="system" aria-pressed="true"><?php echo esc_html__( 'System', 'dark-theme' ); ?></button>
@@ -34,7 +32,7 @@
 		<!-- /wp:heading -->
 
 		<!-- wp:paragraph {"fontSize":"large"} -->
-		<p class="has-large-font-size"><?php echo esc_html__( 'This is the Dark Theme. Its default scheme is the green-black Midnight Terminal palette. Its contrasting light scheme is the soft green-and-orange Paper Morning variation.', 'dark-theme' ); ?></p>
+		<p class="has-large-font-size"><?php echo esc_html__( 'This is the Dark Theme. Its default scheme is the green-black Midnight Terminal palette. Its contrasting light scheme is the soft green-and-orange Paper Morning palette.', 'dark-theme' ); ?></p>
 		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:group -->
@@ -64,7 +62,7 @@
 				<h2 class="wp-block-heading"><?php echo esc_html__( 'Night / morning gradient', 'dark-theme' ); ?></h2>
 				<!-- /wp:heading -->
 				<!-- wp:paragraph -->
-				<p><?php echo esc_html__( 'Only Paper Morning color presets should cross the variation boundary.', 'dark-theme' ); ?></p>
+				<p><?php echo esc_html__( 'The Signal gradient is redefined per scheme, so it repaints with everything else.', 'dark-theme' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->

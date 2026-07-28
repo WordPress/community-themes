@@ -12,9 +12,9 @@ A dark-first test theme for the experimental Gutenberg color-scheme data model.
 == Description ==
 
 This theme is a manual test fixture for WordPress/gutenberg#80698 and its
-scheme-aware duotone follow-up, WordPress/gutenberg#80746. It resolves a light
-scheme from the Daybreak style variation. The variation includes deliberately
-obvious non-color styles that must not be copied into the active theme.
+scheme-aware duotone follow-up, WordPress/gutenberg#80746. Its base palette is
+the dark Midnight Terminal scheme, and it supplies the contrasting Paper Morning
+scheme through inline settings.color.light overrides.
 
 == Changelog ==
 

@@ -1,11 +1,14 @@
 # Experimental color scheme test themes
 
-These themes exercise the published stack in
+These themes exercise the stack in
 [WordPress/gutenberg#80698](https://github.com/WordPress/gutenberg/pull/80698)
-and [WordPress/gutenberg#80746](https://github.com/WordPress/gutenberg/pull/80746),
-plus the in-progress `core/color-scheme-toggle` child branch. They require a
-Gutenberg build containing the full stack. Their `$schema` URLs intentionally
-point at the head branch of the duotone child PR.
+and [WordPress/gutenberg#80746](https://github.com/WordPress/gutenberg/pull/80746).
+They require a Gutenberg build containing both. Their `$schema` URLs
+intentionally point at the head branch of the duotone child PR.
+
+Each theme declares its opposite scheme inline, mirroring the CSS
+`prefers-color-scheme` model: the base palette is the default, and
+`settings.color.light` / `settings.color.dark` override the other scheme.
 
 ## Coverage
 
@@ -13,15 +16,12 @@ point at the head branch of the duotone child PR.
 | --- | --- | --- |
 | Default scheme | Light | Dark |
 | Named schemes | Citrus Daylight / Electric Dusk | Midnight Terminal / Paper Morning |
-| Opposite scheme | Inline `settings.color.dark` | `lightScheme: "Paper Morning"` |
-| Palette overrides | Yes | Yes, from style variation |
-| Gradient overrides | Yes | Yes, from style variation |
-| Duotone overrides | Yes | Yes, from style variation |
+| Opposite scheme | Inline `settings.color.dark` | Inline `settings.color.light` |
+| Palette overrides | Yes | Yes |
+| Gradient overrides | Yes (`signal`) | Yes (`signal`) |
+| Duotone overrides | Yes (`portrait`) | Yes (`portrait`) |
 | Unmatched preset fallback | `fixed-accent` | `fixed-accent` |
-| Inline beats variation reference | `dark` must beat `Reference Dark` | Not applicable |
-| Ignore non-color variation styles | Not applicable | Paper Morning's magenta/green and Comic Sans styles must not leak |
-| Core Color Scheme Toggle block | Yes | Yes |
-| `data-scheme` force/reset | Core toggle plus System/Light/Dark test helper | Core toggle plus System/Light/Dark test helper |
+| `data-scheme` force/reset | System/Light/Dark test helper | System/Light/Dark test helper |
 
 ## Setup
 
@@ -34,9 +34,8 @@ branch contains the full stack:
 }
 ```
 
-From the Gutenberg checkout, fetch and check out the latest child branch. Until
-the toggle branch is published, start from the duotone child and apply the
-in-progress toggle changes:
+From the Gutenberg checkout, fetch and check out the duotone child branch, which
+is stacked on the data model:
 
 ```bash
 git fetch origin pull/80746/head:try/dark-mode-duotone
@@ -56,37 +55,30 @@ Repeat these checks for both themes:
 
 1. With **System** selected, change the operating system appearance. The page
    should update without a reload.
-2. Use the Core Color Scheme Toggle. It must render on the front end, expose a
-   single switch named "Dark mode", update `aria-checked`, and toggle
-   `document.documentElement.dataset.scheme` between `light` and `dark`.
-3. Use the three-button test helper to force **Light**, **Dark**, and **System**.
-   System must remove the `data-scheme` attribute.
-4. Reload the page. Both controls must return to the effective operating-system
-   preference because neither control stores anything.
-5. Confirm the page background, text, primary card, Signal gradient, and Portrait
+2. Use the three-button test helper to force **Light**, **Dark**, and **System**.
+   System must remove the `data-scheme` attribute, and a forced value must win
+   over the operating-system preference.
+3. Reload the page. The helper must return to the effective operating-system
+   preference, because it stores nothing.
+4. Confirm the page background, text, primary card, Signal gradient, and Portrait
    duotone all change together.
-6. Confirm the Fixed accent badge does not change. Its slug has no override.
-7. In DevTools, confirm the same `--wp--preset--color-*` and
+5. Confirm the Fixed accent badge does not change. Its slug has no override.
+6. In DevTools, confirm the same `--wp--preset--color--*` and
    `--wp--preset--gradient--signal` properties are redefined inside the expected
    `prefers-color-scheme` gate and forced `data-scheme` selector.
-8. Confirm a used duotone injects `wp-duotone-portrait--dark` in `light-theme`
+7. Confirm a used duotone injects `wp-duotone-portrait--dark` in `light-theme`
    and `wp-duotone-portrait--light` in `dark-theme`, and that
    `--wp--preset--duotone--portrait` points to it in the matching gate.
-9. Open the Site Editor. Confirm the Core toggle has a static preview and repeat
-   the OS appearance check in the editor canvas.
+8. Open the Site Editor and repeat the operating-system appearance check in the
+   editor canvas. It loads the same generated stylesheet as the front end.
 
-Theme-specific checks:
+Theme-specific expectations:
 
-- `light-theme`: the dark scheme must use the restrained navy/pink values from
-  inline `settings.color.dark`, not the neon green/magenta values in Reference
-  Dark. This verifies inline precedence over `darkScheme`.
-- `dark-theme`: light mode must use Paper Morning's color presets while retaining
-  the theme's Georgia font. A magenta background, green text, or Comic Sans
-  indicates that non-color variation data leaked into scheme resolution.
-
-For the toggle block's support-gate negative test, activate a theme without
-`settings.color.light` or `settings.color.dark`, insert the block, and confirm
-its inspector warning appears and its front-end render is empty.
+- `light-theme`: the dark scheme uses the restrained navy/pink values from
+  `settings.color.dark`.
+- `dark-theme`: the light scheme uses the mint/green values from
+  `settings.color.light`, and the theme's Georgia font is unchanged in both
+  schemes — a scheme section carries color presets only.
 
 ## Backward compatibility
 

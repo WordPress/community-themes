@@ -15,8 +15,6 @@
 		<p class="has-contrast-color has-fixed-accent-background-color has-text-color has-background has-small-font-size" style="border-radius:999px;padding-top:0.35rem;padding-right:0.75rem;padding-bottom:0.35rem;padding-left:0.75rem"><?php echo esc_html__( 'LIGHT THEME · Citrus Daylight', 'light-theme' ); ?></p>
 		<!-- /wp:paragraph -->
 
-		<!-- wp:color-scheme-toggle /-->
-
 		<!-- wp:html -->
 		<div class="scheme-lab__switcher" role="group" aria-label="<?php echo esc_attr__( 'Preview color scheme', 'light-theme' ); ?>">
 			<button type="button" data-scheme-choice="system" aria-pressed="true"><?php echo esc_html__( 'System', 'light-theme' ); ?></button>
